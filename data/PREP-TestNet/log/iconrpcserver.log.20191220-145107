@@ -1,0 +1,567 @@
+2019-12-03 09:51:08,446 492 139635304949504 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 09:51:09,927 492 139635304949504 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 09:51:09,931 492 139635304949504 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 09:51:09,932 492 139635304949504 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 09:51:10,921 522 139978183923456 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 09:51:10,922 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 09:51:10,923 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 09:51:10,924 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 09:51:10,924 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 09:51:10,925 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file
+2019-12-03 09:51:10,926 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 09:51:10,926 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 09:51:10,927 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 09:51:10,927 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 09:51:10,928 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 09:51:10,929 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 09:51:10,929 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 09:51:10,930 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 09:51:10,930 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 09:51:10,931 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 09:51:10,931 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 09:51:10,932 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 09:51:10,932 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 09:51:10,933 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 09:51:10,934 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 09:51:10,935 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 09:51:10,935 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 09:51:10,936 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 09:51:10,936 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 09:51:10,937 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 09:51:10,938 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 09:51:10,939 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 09:51:10,939 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 09:51:10,940 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 09:51:10,940 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 09:51:10,941 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 09:51:10,941 522 139978183923456 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 09:51:10,942 522 139978183923456 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 09:51:10,949 522 139978183923456 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 09:51:10,972 547 139978183923456 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:51:10,973 547 139978183923456 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:51:11,007 547 139978183923456 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:51:11,020 547 139978183923456 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:51:11,021 547 139978183923456 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:51:11,035 547 139978183923456 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:51:11,036 547 139978183923456 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:51:11,051 547 139978183923456 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 09:51:11,067 554 139978183923456 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:51:11,068 554 139978183923456 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:51:11,089 561 139978183923456 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:51:11,091 561 139978183923456 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:51:11,103 554 139978183923456 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:51:11,133 554 139978183923456 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:51:11,134 554 139978183923456 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:51:11,152 561 139978183923456 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:51:11,176 554 139978183923456 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:51:11,178 554 139978183923456 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:51:11,192 561 139978183923456 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:51:11,193 561 139978183923456 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:51:11,194 554 139978183923456 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 09:51:11,209 561 139978183923456 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:51:11,210 561 139978183923456 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:51:11,226 561 139978183923456 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 09:57:34,172 486 139819605042944 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 09:57:35,293 486 139819605042944 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 09:57:35,303 486 139819605042944 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 09:57:35,305 486 139819605042944 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 09:57:37,125 511 140596462638848 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 09:57:37,127 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 09:57:37,132 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 09:57:37,135 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 09:57:37,138 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 09:57:37,139 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 09:57:37,141 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 09:57:37,142 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 09:57:37,144 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 09:57:37,146 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 09:57:37,148 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 09:57:37,149 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 09:57:37,150 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 09:57:37,152 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 09:57:37,154 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 09:57:37,156 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 09:57:37,158 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 09:57:37,160 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 09:57:37,161 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 09:57:37,163 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 09:57:37,165 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 09:57:37,168 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 09:57:37,169 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 09:57:37,172 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 09:57:37,173 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 09:57:37,175 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 09:57:37,177 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 09:57:37,178 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 09:57:37,180 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 09:57:37,181 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 09:57:37,183 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 09:57:37,184 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 09:57:37,186 511 140596462638848 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 09:57:37,187 511 140596462638848 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 09:57:37,195 511 140596462638848 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 09:57:37,240 536 140596462638848 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:57:37,244 536 140596462638848 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:57:37,257 543 140596462638848 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:57:37,270 543 140596462638848 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:57:37,279 550 140596462638848 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 09:57:37,282 550 140596462638848 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 09:57:37,313 536 140596462638848 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:57:37,333 550 140596462638848 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:57:37,333 543 140596462638848 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 09:57:37,361 536 140596462638848 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:57:37,363 536 140596462638848 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:57:37,373 543 140596462638848 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:57:37,375 543 140596462638848 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:57:37,388 550 140596462638848 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 09:57:37,389 550 140596462638848 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 09:57:37,408 543 140596462638848 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:57:37,413 543 140596462638848 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:57:37,420 536 140596462638848 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:57:37,421 536 140596462638848 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:57:37,441 550 140596462638848 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 09:57:37,443 550 140596462638848 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 09:57:37,466 536 140596462638848 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 09:57:37,472 543 140596462638848 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 09:57:37,481 550 140596462638848 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:34:18,451 7596 140649013765888 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:34:19,673 7596 140649013765888 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:34:19,679 7596 140649013765888 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:34:19,681 7596 140649013765888 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:34:21,025 7733 140519774816000 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:34:21,027 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:34:21,028 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:34:21,030 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:34:21,031 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:34:21,033 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:34:21,035 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:34:21,036 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:34:21,037 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:34:21,038 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:34:21,039 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:34:21,040 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:34:21,042 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:34:21,043 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:34:21,044 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:34:21,045 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:34:21,046 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:34:21,047 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:34:21,048 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:34:21,049 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:34:21,050 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:34:21,051 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:34:21,052 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:34:21,053 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:34:21,055 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:34:21,056 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:34:21,057 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:34:21,058 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:34:21,059 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:34:21,060 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:34:21,061 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:34:21,062 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:34:21,063 7733 140519774816000 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:34:21,064 7733 140519774816000 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:34:21,071 7733 140519774816000 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:34:21,093 7758 140519774816000 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:34:21,095 7758 140519774816000 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:34:21,126 7758 140519774816000 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:34:21,154 7765 140519774816000 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:34:21,156 7758 140519774816000 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:34:21,159 7765 140519774816000 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:34:21,159 7758 140519774816000 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:34:21,182 7758 140519774816000 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:34:21,184 7758 140519774816000 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:34:21,214 7765 140519774816000 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:34:21,233 7758 140519774816000 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:34:21,246 7765 140519774816000 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:34:21,248 7765 140519774816000 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:34:21,254 7772 140519774816000 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:34:21,255 7772 140519774816000 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:34:21,274 7765 140519774816000 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:34:21,276 7765 140519774816000 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:34:21,307 7772 140519774816000 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:34:21,315 7765 140519774816000 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:34:21,327 7772 140519774816000 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:34:21,329 7772 140519774816000 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:34:21,346 7772 140519774816000 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:34:21,348 7772 140519774816000 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:34:21,363 7772 140519774816000 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:38:17,849 484 140249108924160 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:38:18,768 484 140249108924160 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:38:18,784 484 140249108924160 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:38:18,787 484 140249108924160 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:38:20,113 507 139675627316992 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:38:20,116 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:38:20,150 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:38:20,152 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:38:20,153 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:38:20,154 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:38:20,156 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:38:20,158 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:38:20,159 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:38:20,160 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:38:20,162 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:38:20,163 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:38:20,165 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:38:20,166 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:38:20,168 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:38:20,170 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:38:20,172 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:38:20,173 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:38:20,175 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:38:20,176 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:38:20,178 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:38:20,180 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:38:20,181 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:38:20,183 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:38:20,185 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:38:20,187 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:38:20,188 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:38:20,190 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:38:20,191 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:38:20,192 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:38:20,194 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:38:20,195 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:38:20,196 507 139675627316992 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:38:20,198 507 139675627316992 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:38:20,205 507 139675627316992 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:38:20,229 531 139675627316992 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:38:20,233 531 139675627316992 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:38:20,261 531 139675627316992 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:38:20,279 531 139675627316992 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:38:20,280 531 139675627316992 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:38:20,299 531 139675627316992 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:38:20,301 531 139675627316992 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:38:20,316 538 139675627316992 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:38:20,323 538 139675627316992 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:38:20,333 531 139675627316992 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:38:20,329 545 139675627316992 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:38:20,337 545 139675627316992 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:38:20,356 538 139675627316992 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:38:20,378 545 139675627316992 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:38:20,394 538 139675627316992 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:38:20,398 538 139675627316992 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:38:20,401 545 139675627316992 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:38:20,403 545 139675627316992 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:38:20,422 545 139675627316992 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:38:20,424 545 139675627316992 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:38:20,438 538 139675627316992 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:38:20,444 538 139675627316992 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:38:20,444 545 139675627316992 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:38:20,463 538 139675627316992 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:39:59,968 486 140561561659136 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:40:00,981 486 140561561659136 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:40:00,989 486 140561561659136 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:40:00,993 486 140561561659136 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:40:02,294 511 139650178000640 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:40:02,295 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:40:02,297 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:40:02,298 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:40:02,299 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:40:02,300 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:40:02,301 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:40:02,303 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:40:02,304 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:40:02,305 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:40:02,306 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:40:02,307 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:40:02,309 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:40:02,310 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:40:02,311 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:40:02,312 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:40:02,313 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:40:02,314 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:40:02,316 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:40:02,317 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:40:02,318 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:40:02,320 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:40:02,321 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:40:02,322 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:40:02,324 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:40:02,325 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:40:02,326 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:40:02,327 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:40:02,328 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:40:02,329 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:40:02,330 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:40:02,331 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:40:02,332 511 139650178000640 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:40:02,333 511 139650178000640 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:40:02,340 511 139650178000640 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:40:02,362 537 139650178000640 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:40:02,364 537 139650178000640 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:40:02,387 537 139650178000640 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:40:02,411 537 139650178000640 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:40:02,413 537 139650178000640 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:40:02,437 537 139650178000640 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:40:02,438 537 139650178000640 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:40:02,443 544 139650178000640 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:40:02,446 544 139650178000640 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:40:02,478 537 139650178000640 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:40:02,491 544 139650178000640 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:40:02,519 551 139650178000640 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:40:02,524 551 139650178000640 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:40:02,530 544 139650178000640 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:40:02,531 544 139650178000640 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:40:02,551 544 139650178000640 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:40:02,552 544 139650178000640 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:40:02,565 551 139650178000640 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:40:02,580 544 139650178000640 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:40:02,591 551 139650178000640 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:40:02,593 551 139650178000640 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:40:02,610 551 139650178000640 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:40:02,612 551 139650178000640 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:40:02,633 551 139650178000640 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:42:23,099 486 140131974403840 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:42:24,637 486 140131974403840 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:42:24,648 486 140131974403840 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:42:24,655 486 140131974403840 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:42:25,595 515 140518948411136 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:42:25,596 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:42:25,598 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:42:25,599 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:42:25,600 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:42:25,601 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:42:25,602 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:42:25,603 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:42:25,604 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:42:25,605 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:42:25,606 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:42:25,607 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:42:25,609 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:42:25,610 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:42:25,610 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:42:25,611 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:42:25,612 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:42:25,613 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:42:25,614 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:42:25,615 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:42:25,616 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:42:25,617 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:42:25,618 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:42:25,619 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:42:25,620 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:42:25,621 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:42:25,622 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:42:25,623 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:42:25,624 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:42:25,625 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:42:25,626 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:42:25,627 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:42:25,629 515 140518948411136 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:42:25,630 515 140518948411136 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:42:25,637 515 140518948411136 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:42:25,658 536 140518948411136 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:42:25,660 536 140518948411136 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:42:25,682 536 140518948411136 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:42:25,701 536 140518948411136 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:42:25,702 536 140518948411136 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:42:25,723 536 140518948411136 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:42:25,724 536 140518948411136 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:42:25,744 536 140518948411136 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:42:25,760 543 140518948411136 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:42:25,762 543 140518948411136 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:42:25,774 550 140518948411136 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:42:25,782 550 140518948411136 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:42:25,804 543 140518948411136 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:42:25,841 543 140518948411136 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:42:25,842 543 140518948411136 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:42:25,844 550 140518948411136 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:42:25,835 543 140518948411136 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:42:25,837 543 140518948411136 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:42:25,846 550 140518948411136 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:42:25,848 550 140518948411136 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:42:25,866 543 140518948411136 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:42:25,876 550 140518948411136 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:42:25,877 550 140518948411136 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:42:25,897 550 140518948411136 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:43:48,714 488 140361063212800 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:43:50,023 488 140361063212800 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:43:50,029 488 140361063212800 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:43:50,031 488 140361063212800 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:43:51,116 512 140202712340224 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:43:51,118 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:43:51,120 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:43:51,123 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:43:51,125 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:43:51,126 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:43:51,128 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:43:51,129 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:43:51,130 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:43:51,132 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:43:51,133 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:43:51,134 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:43:51,136 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:43:51,137 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:43:51,138 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:43:51,140 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:43:51,141 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:43:51,142 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:43:51,144 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:43:51,145 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:43:51,147 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:43:51,148 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:43:51,149 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:43:51,150 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:43:51,151 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:43:51,152 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:43:51,154 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:43:51,155 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:43:51,156 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:43:51,157 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:43:51,158 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:43:51,160 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:43:51,161 512 140202712340224 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:43:51,162 512 140202712340224 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:43:51,169 512 140202712340224 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:43:51,191 537 140202712340224 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:43:51,193 537 140202712340224 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:43:51,222 537 140202712340224 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:43:51,240 537 140202712340224 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:43:51,242 537 140202712340224 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:43:51,265 537 140202712340224 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:43:51,267 537 140202712340224 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:43:51,293 537 140202712340224 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:43:51,297 544 140202712340224 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:43:51,299 544 140202712340224 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:43:51,328 544 140202712340224 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:43:51,350 544 140202712340224 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:43:51,352 544 140202712340224 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:43:51,379 544 140202712340224 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:43:51,380 544 140202712340224 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:43:51,370 551 140202712340224 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:43:51,388 551 140202712340224 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:43:51,407 544 140202712340224 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:43:51,424 551 140202712340224 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:43:51,440 551 140202712340224 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:43:51,442 551 140202712340224 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:43:51,458 551 140202712340224 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:43:51,460 551 140202712340224 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:43:51,477 551 140202712340224 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:51:54,240 1559 140295578134272 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:51:55,583 1559 140295578134272 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:51:55,591 1559 140295578134272 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:51:55,594 1559 140295578134272 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:51:57,560 1610 140559682336512 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:51:57,565 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:51:57,568 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:51:57,573 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:51:57,576 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:51:57,581 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:51:57,583 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:51:57,589 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:51:57,592 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:51:57,594 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:51:57,595 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:51:57,597 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:51:57,598 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:51:57,599 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:51:57,600 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:51:57,609 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:51:57,610 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:51:57,611 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:51:57,612 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:51:57,613 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:51:57,615 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:51:57,616 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:51:57,618 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:51:57,619 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:51:57,621 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:51:57,622 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:51:57,624 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:51:57,625 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:51:57,626 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:51:57,627 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:51:57,628 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:51:57,629 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:51:57,631 1610 140559682336512 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:51:57,632 1610 140559682336512 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:51:57,649 1610 140559682336512 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:51:57,678 1652 140559682336512 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:51:57,680 1652 140559682336512 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:51:57,714 1652 140559682336512 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:51:57,749 1652 140559682336512 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:51:57,752 1652 140559682336512 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:51:57,779 1663 140559682336512 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:51:57,791 1663 140559682336512 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:51:57,797 1668 140559682336512 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:51:57,801 1668 140559682336512 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:51:57,839 1652 140559682336512 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:51:57,840 1652 140559682336512 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:51:57,869 1663 140559682336512 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:51:57,893 1652 140559682336512 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:51:57,897 1668 140559682336512 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:51:57,925 1668 140559682336512 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:51:57,927 1668 140559682336512 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:51:57,926 1663 140559682336512 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:51:57,930 1663 140559682336512 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:51:57,954 1668 140559682336512 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:51:57,956 1668 140559682336512 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:51:57,968 1663 140559682336512 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:51:57,969 1663 140559682336512 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:51:57,985 1668 140559682336512 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:51:58,004 1663 140559682336512 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:58:44,037 488 139697121928960 INFO icon_rpcserver_cli.py(160) IconRpcServerCli check_if_process_running!
+2019-12-03 11:58:45,336 488 139697121928960 DEBUG icon_rpcserver_cli.py(121) LOG start_server() start
+2019-12-03 11:58:45,346 488 139697121928960 DEBUG icon_rpcserver_cli.py(146) LOG start_process() end
+2019-12-03 11:58:45,351 488 139697121928960 INFO icon_rpcserver_cli.py(109) IconRpcServerCli start_command done!
+2019-12-03 11:58:46,465 510 139760295413504 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-03 11:58:46,466 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconrpcserver
+2019-12-03 11:58:46,468 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-03 11:58:46,469 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-03 11:58:46,471 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconrpcserver.log
+2019-12-03 11:58:46,473 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-03 11:58:46,474 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-03 11:58:46,475 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-03 11:58:46,477 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-03 11:58:46,478 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-03 11:58:46,479 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-03 11:58:46,480 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-03 11:58:46,482 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.host] > 0.0.0.0
+2019-12-03 11:58:46,483 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.port] > 9000
+2019-12-03 11:58:46,485 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.portDiffRestServiceContainer] > 1900
+2019-12-03 11:58:46,487 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-03 11:58:46,488 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-03 11:58:46,490 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.workers] > 3
+2019-12-03 11:58:46,491 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.worker_class] > sanic.worker.GunicornWorker
+2019-12-03 11:58:46,492 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.gunicornConfig.graceful_timeout] > 0
+2019-12-03 11:58:46,494 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.restSslType] > 0
+2019-12-03 11:58:46,495 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.defaultSslCertPath] > resources/ssl_test_cert/cert.pem
+2019-12-03 11:58:46,496 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.defaultSslKeyPath] > resources/ssl_test_cert/key.pem
+2019-12-03 11:58:46,498 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.defaultSslTrustCertPath] > resources/ssl_test_ca/cert.pem
+2019-12-03 11:58:46,499 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.ipLocal] > 127.0.0.1
+2019-12-03 11:58:46,500 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.grpcTimeout] > 30
+2019-12-03 11:58:46,501 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.grpcRetry] > 5
+2019-12-03 11:58:46,502 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.restAdditionalTimeout] > 30
+2019-12-03 11:58:46,504 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.scoreQueryTimeout] > 120
+2019-12-03 11:58:46,505 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.wsHeartBeatTime] > 30
+2019-12-03 11:58:46,507 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.requestMaxSize] > 2097152
+2019-12-03 11:58:46,508 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconrpcserver.json
+2019-12-03 11:58:46,510 510 139760295413504 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-03 11:58:46,511 510 139760295413504 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-03 11:58:46,518 510 139760295413504 DEBUG icon_rpcserver_app.py(146) LOG Run gunicorn webserver for HA. Port = 9000
+2019-12-03 11:58:46,540 535 139760295413504 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:58:46,543 535 139760295413504 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:58:46,568 535 139760295413504 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:58:46,596 535 139760295413504 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:58:46,600 535 139760295413504 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:58:46,612 542 139760295413504 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:58:46,618 542 139760295413504 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:58:46,633 535 139760295413504 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:58:46,635 535 139760295413504 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:58:46,648 549 139760295413504 DEBUG rest_server.py(109) LOG rest_server:initialize
+2019-12-03 11:58:46,658 549 139760295413504 DEBUG stub_collection.py(39) LOG create_peer_stub
+2019-12-03 11:58:46,673 535 139760295413504 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:58:46,687 542 139760295413504 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:58:46,706 549 139760295413504 DEBUG stub_collection.py(46) LOG create_channel_stub
+2019-12-03 11:58:46,728 542 139760295413504 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:58:46,733 542 139760295413504 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:58:46,759 549 139760295413504 DEBUG stub_collection.py(52) LOG ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-03 11:58:46,762 549 139760295413504 DEBUG stub_collection.py(56) LOG create_channel_tx_creator_stub
+2019-12-03 11:58:46,771 542 139760295413504 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:58:46,774 542 139760295413504 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:58:46,797 542 139760295413504 DEBUG rest_server.py(124) LOG rest_server:initialize complete.
+2019-12-03 11:58:46,795 549 139760295413504 DEBUG stub_collection.py(62) LOG ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-03 11:58:46,800 549 139760295413504 DEBUG stub_collection.py(66) LOG create_icon_score_stub
+2019-12-03 11:58:46,825 549 139760295413504 DEBUG rest_server.py(124) LOG rest_server:initialize complete.

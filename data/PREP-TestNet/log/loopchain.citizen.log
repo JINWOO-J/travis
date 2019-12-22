@@ -1,0 +1,11 @@
+2019-12-20 14:51:09,463 480 139920842798848 hxc61616  INFO peer_service.py(135) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+2019-12-20 14:51:09,487 480 139920842798848 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+2019-12-20 14:51:09,489 480 139920842798848 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+2019-12-20 14:51:09,495 480 139920842798848 hxc61616  INFO peer_service.py(200) Start Peer Service at port: 7100 start duration(0.10691289999522269)
+2019-12-20 14:51:09,541 480 139920842798848 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-20 14:51:09,568 480 139920842798848 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+2019-12-20 14:51:09,608 480 139920842798848 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+2019-12-20 14:51:09,610 480 139920842798848 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+2019-12-20 14:51:09,612 480 139920842798848 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+2019-12-20 14:51:11,286 480 139920842798848 hxc61616  INFO peer_service.py(212) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+2019-12-20 14:51:12,675 480 139920842798848 hxc61616  INFO peer_service.py(228) Peer Service Ended.

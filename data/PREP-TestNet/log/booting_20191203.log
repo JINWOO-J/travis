@@ -1,0 +1,478 @@
+[2019-12-03 09:48:32.720] Your IP: 172.17.0.2 
+[2019-12-03 09:48:32.728] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 09:48:32.736] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 09:48:32.744] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 09:48:32.751] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 09:48:32.759] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 09:48:32.767] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 09:48:32.774] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:48:47.618] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:48:47.628] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 09:48:47.640] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 09:48:48.142] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 09:48:48.152] NETWORK_ENV=PREP-TestNet, SERVICE=prepsss, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 09:48:48.305] [ERROR] Download Failed - https://download.solidwallet.io/conf/prepsss_channel_manage_data.json status_code=403  
+[2019-12-03 09:50:43.119] Your IP: 172.17.0.2 
+[2019-12-03 09:50:43.176] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 09:50:43.186] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 09:50:43.195] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 09:50:43.203] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 09:50:43.212] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 09:50:43.221] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 09:50:43.231] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:50:58.918] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:50:58.927] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 09:50:58.937] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 09:50:59.459] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 09:50:59.473] NETWORK_ENV=PREP-TestNet, SERVICE=prepsss, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 09:51:00.186] UnRegistered P-Rep Network  
+[2019-12-03 09:51:00.895] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 09:51:00.921] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 09:51:08.206] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file 
+[2019-12-03 09:51:08.238] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 09:51:08.274] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 09:51:08.324] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 09:51:53.321] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 09:52:23.306] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:52:23.410] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:52:23.775] == Alive peer_list=['20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:52:23.786] Start BlockCheck 
+[2019-12-03 09:52:23.828] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:52:38.677] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:53:08.658] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:53:08.740] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:53:09.084] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:53:09.095] Start BlockCheck 
+[2019-12-03 09:53:09.194] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:53:24.083] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:53:54.067] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:53:54.150] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:53:54.560] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:53:54.575] Start BlockCheck 
+[2019-12-03 09:53:54.618] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:54:09.480] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:54:39.460] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:54:39.555] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:54:39.910] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:54:39.922] Start BlockCheck 
+[2019-12-03 09:54:40.006] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:54:56.329] Your IP: 172.17.0.2 
+[2019-12-03 09:54:56.339] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 09:54:56.351] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 09:54:56.364] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 09:54:56.376] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 09:54:56.386] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 09:54:56.395] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 09:54:56.405] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:55:11.257] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:55:11.266] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 09:55:11.276] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 09:55:11.774] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 09:55:11.786] NETWORK_ENV=PREP-TestNet, SERVICE=prepsss, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 09:55:12.432] UnRegistered P-Rep Network  
+[2019-12-03 09:55:12.956] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 09:55:12.965] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 09:55:19.154] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: console 
+[2019-12-03 09:55:19.171] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 09:55:19.215] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 09:55:19.265] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 09:56:04.229] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 09:56:34.218] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:56:34.341] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:56:34.737] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:56:34.749] Start BlockCheck 
+[2019-12-03 09:56:34.796] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:56:49.688] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:57:10.825] Your IP: 172.17.0.2 
+[2019-12-03 09:57:10.836] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 09:57:10.845] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 09:57:10.854] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 09:57:10.886] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 09:57:10.897] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 09:57:10.909] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 09:57:10.919] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:57:25.809] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:57:25.821] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 09:57:25.835] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 09:57:26.372] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 09:57:26.380] NETWORK_ENV=PREP-TestNet, SERVICE=prepsss, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 09:57:27.124] UnRegistered P-Rep Network  
+[2019-12-03 09:57:27.680] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.2.53:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 09:57:27.700] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 09:57:33.936] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 09:57:33.959] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 09:57:33.988] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 09:57:34.028] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 09:58:19.020] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 09:58:49.002] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:58:49.113] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:58:49.468] == Alive peer_list=['20.20.4.226:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.1.193:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:58:49.481] Start BlockCheck 
+[2019-12-03 09:58:49.532] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:59:04.387] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 09:59:34.372] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 09:59:34.461] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 09:59:34.801] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 09:59:34.814] Start BlockCheck 
+[2019-12-03 09:59:34.857] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 09:59:49.745] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:00:19.722] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:00:19.802] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:00:20.075] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:00:20.084] Start BlockCheck 
+[2019-12-03 10:00:20.166] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:00:35.018] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:01:05.001] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:01:05.082] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:01:05.402] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:01:05.415] Start BlockCheck 
+[2019-12-03 10:01:05.458] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:01:20.341] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:01:50.322] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:01:50.404] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:01:50.716] == Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.20:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:01:50.728] Start BlockCheck 
+[2019-12-03 10:01:50.774] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:02:05.625] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:02:35.607] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:02:35.694] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:02:35.970] == Alive peer_list=['20.20.4.226:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:02:35.979] Start BlockCheck 
+[2019-12-03 10:02:36.023] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:02:50.905] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:03:20.888] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:03:20.967] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:03:21.269] == Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.20:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:03:21.281] Start BlockCheck 
+[2019-12-03 10:03:21.329] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:03:36.186] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:04:06.165] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:04:06.251] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:04:06.553] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.2.53:9000', '20.20.1.20:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:04:06.563] Start BlockCheck 
+[2019-12-03 10:04:06.612] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:04:21.492] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:04:51.478] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:04:51.558] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:04:51.856] == Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:04:51.865] Start BlockCheck 
+[2019-12-03 10:04:51.906] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:05:06.763] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:05:36.744] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:05:36.826] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:05:37.117] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.1.193:9000', '20.20.1.20:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:05:37.128] Start BlockCheck 
+[2019-12-03 10:05:37.172] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:05:52.059] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:06:22.040] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:06:22.120] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:06:22.441] == Alive peer_list=['20.20.4.226:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:06:22.450] Start BlockCheck 
+[2019-12-03 10:06:22.494] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:06:37.341] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:07:07.320] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:07:07.400] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:07:07.713] == Alive peer_list=['20.20.4.226:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:07:07.722] Start BlockCheck 
+[2019-12-03 10:07:07.768] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:07:22.666] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 10:07:52.654] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 10:07:52.744] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 10:07:53.075] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.193:9000', '20.20.1.20:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 10:07:53.087] Start BlockCheck 
+[2019-12-03 10:07:53.135] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 10:08:07.985] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:34:01.367] Your IP: 172.17.0.2 
+[2019-12-03 11:34:01.377] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:34:01.387] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:34:01.397] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:34:01.406] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:34:01.416] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:34:01.424] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:34:01.434] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:34:16.323] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:34:16.332] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:34:16.342] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:34:16.813] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:34:16.823] NETWORK_ENV=PREP-TestNet, SERVICE=prepsss, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:34:17.504] UnRegistered P-Rep Network  
+[2019-12-03 11:34:18.046] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:34:18.059] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:34:18.207] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:34:18.228] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:34:18.247] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:34:18.269] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:35:03.225] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:35:33.206] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:35:33.286] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:35:33.709] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:35:33.717] Start BlockCheck 
+[2019-12-03 11:35:33.803] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:35:48.783] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:36:18.765] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:36:18.847] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:36:19.197] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:36:19.210] Start BlockCheck 
+[2019-12-03 11:36:19.257] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:36:34.105] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:37:04.101] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:37:04.249] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:37:04.628] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.193:9000', '20.20.2.53:9000', '20.20.1.20:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:37:04.635] Start BlockCheck 
+[2019-12-03 11:37:04.674] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:37:20.034] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:37:53.854] Your IP: 172.17.0.2 
+[2019-12-03 11:37:53.865] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:37:53.877] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:37:53.888] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:37:53.898] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:37:53.909] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:37:53.925] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:37:53.934] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:38:09.310] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:38:09.318] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:38:09.329] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:38:09.814] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:38:09.825] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:38:11.251] UnRegistered P-Rep Network  
+[2019-12-03 11:38:12.439] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.1.20:9000', '20.20.4.90:9000', '20.20.1.193:9000', '20.20.2.53:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:38:12.450] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:38:17.637] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:38:17.660] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:38:17.693] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:38:17.743] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:39:02.707] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:39:36.188] Your IP: 172.17.0.2 
+[2019-12-03 11:39:36.196] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:39:36.205] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:39:36.213] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:39:36.223] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:39:36.231] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:39:36.240] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:39:36.248] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:39:51.691] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:39:51.700] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:39:51.709] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:39:52.197] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:39:52.207] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:39:52.987] UnRegistered P-Rep Network  
+[2019-12-03 11:39:53.584] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.1 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:39:53.595] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:39:59.747] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:39:59.768] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:39:59.815] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:39:59.876] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:40:44.870] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:41:14.851] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:41:14.930] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:41:15.246] == Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.193:9000', '20.20.1.20:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:41:15.256] Start BlockCheck 
+[2019-12-03 11:41:15.299] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:41:30.245] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:42:00.516] Your IP: 172.17.0.2 
+[2019-12-03 11:42:00.524] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:42:00.532] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:42:00.540] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:42:00.548] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:42:00.557] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:42:00.565] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:42:00.584] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:42:15.667] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:42:15.680] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:42:15.693] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:42:16.150] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:42:16.165] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:42:16.836] UnRegistered P-Rep Network  
+[2019-12-03 11:42:17.720] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=['20.20.4.90:9000', '20.20.1.20:9000', '20.20.4.226:9000', '20.20.1.193:9000', '20.20.6.118:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:42:17.734] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:42:22.927] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:42:22.961] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:42:22.975] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:42:23.002] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:43:24.364] Your IP: 172.17.0.2 
+[2019-12-03 11:43:24.372] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:43:24.381] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:43:24.390] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:43:24.400] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:43:24.407] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:43:24.416] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:43:24.425] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:43:40.307] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:43:40.316] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:43:40.324] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:43:40.839] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:43:40.851] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:43:41.660] UnRegistered P-Rep Network  
+[2019-12-03 11:43:42.203] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:43:42.214] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:43:48.436] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:43:48.462] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:43:48.505] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:43:48.569] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:44:33.524] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:45:03.503] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:45:03.594] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:45:03.956] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:45:03.965] Start BlockCheck 
+[2019-12-03 11:45:04.010] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:45:18.896] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:45:48.879] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:45:48.955] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:45:49.244] == Alive peer_list=['20.20.4.90:9000', '20.20.4.226:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:45:49.253] Start BlockCheck 
+[2019-12-03 11:45:49.300] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:46:04.150] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:51:36.649] Your IP: 172.17.0.2 
+[2019-12-03 11:51:36.659] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:51:36.669] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:51:36.678] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:51:36.687] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:51:36.695] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:51:36.703] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:51:36.711] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:51:52.151] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:51:52.162] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:51:52.173] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:51:52.644] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:51:52.653] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:51:53.469] UnRegistered P-Rep Network  
+[2019-12-03 11:51:53.896] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.1.193:9000', '20.20.2.53:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:51:53.905] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:51:54.045] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:51:54.085] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:51:54.120] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:51:54.175] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:52:39.147] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:53:09.126] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:53:09.205] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:53:10.634] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:53:10.647] Start BlockCheck 
+[2019-12-03 11:53:10.692] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:53:25.581] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:53:55.566] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:53:55.643] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:53:56.172] == Alive peer_list=['20.20.4.90:9000', '20.20.1.20:9000', '20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:53:56.183] Start BlockCheck 
+[2019-12-03 11:53:56.269] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:54:11.608] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:54:41.591] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:54:41.663] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:54:41.978] == Alive peer_list=['20.20.4.90:9000', '20.20.1.20:9000', '20.20.4.226:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:54:41.987] Start BlockCheck 
+[2019-12-03 11:54:42.068] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:54:56.921] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:55:26.902] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:55:26.979] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:55:27.389] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:55:27.398] Start BlockCheck 
+[2019-12-03 11:55:27.484] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:55:42.841] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:56:52.755] Your IP: 172.17.0.2 
+[2019-12-03 11:56:52.776] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:56:52.788] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:56:52.801] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:56:52.812] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:56:52.824] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:56:52.838] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:56:52.850] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:56:56.858] Your IP: 172.17.0.2 
+[2019-12-03 11:56:56.866] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:56:56.875] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:56:56.883] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:56:56.894] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:56:56.902] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:56:56.911] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:56:56.919] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:58:20.829] Your IP: 172.17.0.2 
+[2019-12-03 11:58:20.837] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-03 11:58:20.845] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-03 11:58:20.853] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-03 11:58:20.860] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-03 11:58:20.869] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-03 11:58:20.877] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-03 11:58:20.886] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 11:58:35.853] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 11:58:35.862] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-03 11:58:35.872] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-03 11:58:36.347] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-03 11:58:36.356] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-03 11:58:37.166] UnRegistered P-Rep Network  
+[2019-12-03 11:58:37.666] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.193:9000', '20.20.2.53:9000', '20.20.1.20:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-03 11:58:37.674] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-03 11:58:43.860] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-03 11:58:43.889] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-03 11:58:43.928] [OK] CHECK=0, Run iconservice start! 
+[2019-12-03 11:58:43.999] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-03 11:59:29.018] Start Health check ... 30s, HEALTH_ENV_CHECK=true 
+[2019-12-03 11:59:59.005] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 11:59:59.092] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 11:59:59.439] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.1.20:9000', '20.20.6.118:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 11:59:59.450] Start BlockCheck 
+[2019-12-03 11:59:59.506] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 12:00:18.366] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 12:00:58.719] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 12:00:59.170] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 12:00:59.798] == Alive peer_list=['20.20.4.226:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.1.20:9000', '20.20.1.193:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 12:00:59.820] Start BlockCheck 
+[2019-12-03 12:00:59.929] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 12:01:15.218] [ERROR] [FAIL] Time Synchronization!! 
+[2019-12-03 12:01:45.209] Start PROC_HEALTH_CHECK ... 30s 
+[2019-12-03 12:01:45.310] Start API_HEALTH_CHECK  ... 30s 
+[2019-12-03 12:01:51.203] == Alive peer_list=['20.20.1.193:9000', '20.20.4.90:9000', '20.20.6.118:9000', '20.20.1.20:9000', '20.20.2.53:9000'], fastpeer_domains=['fastpeer0.icon', 'fastpeer1.icon', 'fastpeer2.icon', 'fastpeer3.icon', 'fastpeer4.icon'] 
+[2019-12-03 12:01:51.241] Start BlockCheck 
+[2019-12-03 12:01:51.457] Time synchronization with NTP / NTP SERVER: time.google.com 
+[2019-12-03 12:02:11.229] [ERROR] [FAIL] Time Synchronization!! 

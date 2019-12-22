@@ -1,0 +1,15 @@
+[2019-12-19 15:54:47.725] Your IP: 172.17.0.2 
+[2019-12-19 15:54:47.736] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-19 15:54:47.744] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-19 15:54:47.755] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-19 15:54:47.765] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-19 15:54:47.775] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-19 15:54:47.785] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-19 15:54:47.794] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-19 15:54:47.803] P-REP package version info - _1910211829xc2286d 
+[2019-12-19 15:54:48.428] iconcommons             1.1.2    
+iconrpcserver           1.4.5    
+iconsdk                 1.2.0    
+iconservice             1.5.15   
+loopchain               2.4.15    
+[2019-12-19 15:54:48.437] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 

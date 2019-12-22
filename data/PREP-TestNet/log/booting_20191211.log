@@ -1,0 +1,8 @@
+[2019-12-11 15:16:05.277] Your IP: 172.17.0.2 
+[2019-12-11 15:16:05.293] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-11 15:16:05.310] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-11 15:16:05.327] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-11 15:16:05.342] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-11 15:16:05.358] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-11 15:16:05.374] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-11 15:16:05.390] Time synchronization with NTP / NTP SERVER: time.google.com 

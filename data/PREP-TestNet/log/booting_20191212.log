@@ -1,0 +1,555 @@
+[2019-12-12 11:07:41.522] [ERROR] [FAIL] CHECK=20.20.1.1, ValidIP check 
+[2019-12-12 11:07:41.532] Stopped script 
+[2019-12-12 11:07:53.479] [ERROR] [FAIL] CHECK=2323, ValidIP check 
+[2019-12-12 11:07:53.485] Stopped script 
+[2019-12-12 11:08:33.312] [ERROR] [FAIL] CHECK=2323, ValidIP check 
+[2019-12-12 11:08:33.323] Stopped script 
+[2019-12-12 11:09:07.506] START 
+[2019-12-12 11:09:16.132] START 20.0.2.2 
+[2019-12-12 11:10:37.494] START 20.0.2.2 
+[2019-12-12 11:10:50.623] START 20.0.2.2 
+[2019-12-12 11:10:50.634] IN 
+[2019-12-12 11:11:09.817] START 20.0.2.2 
+[2019-12-12 11:11:09.829]  	
+ 
+[2019-12-12 11:11:32.391] START 20.0.2.2 
+[2019-12-12 11:11:32.401]  	
+ 
+[2019-12-12 11:11:52.484] START 20.0.2.2 
+[2019-12-12 11:11:52.495]  	
+ 
+[2019-12-12 11:11:52.506]  	
+ 
+[2019-12-12 11:13:20.333] START 20.0.2.2 
+[2019-12-12 11:13:20.343]  
+[2019-12-12 11:13:20.356]  	
+ 
+[2019-12-12 11:13:20.372]  	
+ 
+[2019-12-12 11:22:51.203] START 20.0.2.2 
+[2019-12-12 11:22:51.218]  	
+ 
+[2019-12-12 11:22:51.231]  	
+ 
+[2019-12-12 11:27:15.346] START 20.0.2.2 
+[2019-12-12 11:27:15.367]  	
+ 
+[2019-12-12 11:27:15.382]  	
+ 
+[2019-12-12 11:27:15.396] 20 
+[2019-12-12 11:27:38.979] START 20.0.2.2 
+[2019-12-12 11:27:38.988]  	
+ 
+[2019-12-12 11:27:38.999]  	
+ 
+[2019-12-12 11:27:39.009] 20 
+[2019-12-12 11:27:39.020] [ERROR] [FAIL] CHECK=1, Check valid IPaddr  
+[2019-12-12 11:27:39.029] Stopped script 
+[2019-12-12 13:15:52.287] START 20.0.2.2 
+[2019-12-12 13:15:52.303]  	
+ 
+[2019-12-12 13:15:52.317]  	
+ 
+[2019-12-12 13:15:52.330] 20 
+[2019-12-12 13:15:52.341] [ERROR] [FAIL] CHECK=1, Check valid IPaddr  
+[2019-12-12 13:15:52.347] Stopped script 
+[2019-12-12 13:16:20.198] START 20.0.2.2 
+[2019-12-12 13:16:20.207]  	
+ 
+[2019-12-12 13:16:20.217]  	
+ 
+[2019-12-12 13:16:20.227]  
+[2019-12-12 13:17:01.793] START 20.0.2.2 
+[2019-12-12 13:17:01.803]  	
+ 
+[2019-12-12 13:17:01.814]  	
+ 
+[2019-12-12 13:17:01.823]  
+[2019-12-12 13:17:14.490] START 20.0.2.2 
+[2019-12-12 13:17:14.498]  	
+ 
+[2019-12-12 13:17:14.506]  	
+ 
+[2019-12-12 13:17:14.516]  
+[2019-12-12 13:17:27.350] START 20.0.2.2 
+[2019-12-12 13:17:27.367]  	
+ 
+[2019-12-12 13:17:27.383]  	
+ 
+[2019-12-12 13:17:27.396]  
+[2019-12-12 13:17:56.376] START 20.0.2.2 
+[2019-12-12 13:17:56.384]  	
+ 
+[2019-12-12 13:17:56.392]  	
+ 
+[2019-12-12 13:17:56.401]  
+[2019-12-12 13:18:18.032] START asdasdsa 
+[2019-12-12 13:18:38.983] START asdasdsa 
+[2019-12-12 13:18:38.990] [OK] CHECK=0, Check valid IPaddr  
+[2019-12-12 13:18:58.198] START asdasdsa 
+[2019-12-12 13:18:58.208] [ERROR] [FAIL] CHECK=1, Check valid IPaddr  
+[2019-12-12 13:18:58.214] Stopped script 
+[2019-12-12 13:19:04.156] START asdasdsa 
+[2019-12-12 13:19:04.166] [ERROR] [FAIL] CHECK=1, Check valid IPaddr  
+[2019-12-12 13:19:04.172] Stopped script 
+[2019-12-12 13:19:06.929] START asdasdsa 
+[2019-12-12 13:19:06.939] [ERROR] [FAIL] CHECK=1, Check valid IPaddr  
+[2019-12-12 13:19:06.946] Stopped script 
+[2019-12-12 13:19:24.504] START asdasdsa 
+[2019-12-12 13:19:24.518] [ERROR] [FAIL] CHECK=1, Check valid IPaddr asdasdsa  
+[2019-12-12 13:19:24.525] Stopped script 
+[2019-12-12 13:19:33.417] START 20.20.1.1 
+[2019-12-12 13:19:33.428]  	
+ 
+[2019-12-12 13:19:33.437]  	
+ 
+[2019-12-12 13:19:33.446]  
+[2019-12-12 13:19:43.614] START 20.20.1.333 
+[2019-12-12 13:19:43.628]  	
+ 
+[2019-12-12 13:19:43.639]  	
+ 
+[2019-12-12 13:19:43.651]  
+[2019-12-12 13:19:43.663] [ERROR] [FAIL] CHECK=1, Check valid IPaddr 20  
+[2019-12-12 13:19:43.670] Stopped script 
+[2019-12-12 13:19:57.264] START 20.20.1.333 
+[2019-12-12 13:19:57.273]  	
+ 
+[2019-12-12 13:19:57.282]  	
+ 
+[2019-12-12 13:19:57.296]  
+[2019-12-12 13:19:57.312] [ERROR] [FAIL] CHECK=1, Check valid IPaddr 20.20.1.333  
+[2019-12-12 13:19:57.323] Stopped script 
+[2019-12-12 13:20:07.738] START 20.20.1.333 
+[2019-12-12 13:20:07.748]  	
+ 
+[2019-12-12 13:20:07.759]  	
+ 
+[2019-12-12 13:20:07.769]  
+[2019-12-12 13:20:07.777] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:20:07.784] Stopped script 
+[2019-12-12 13:20:29.472]  	
+ 
+[2019-12-12 13:20:29.492]  	
+ 
+[2019-12-12 13:20:29.506]  
+[2019-12-12 13:20:29.520] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:20:29.528] Stopped script 
+[2019-12-12 13:20:41.285] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:20:41.292] Stopped script 
+[2019-12-12 13:20:54.930] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:20:54.936] Stopped script 
+[2019-12-12 13:20:56.692] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:20:56.698] Stopped script 
+[2019-12-12 13:21:26.789] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.333  
+[2019-12-12 13:21:26.796] Stopped script 
+[2019-12-12 13:21:44.596] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> asdasdasd  
+[2019-12-12 13:21:44.603] Stopped script 
+[2019-12-12 13:21:57.411] Your IP: 20.20.20.2 
+[2019-12-12 13:21:57.425] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:21:57.437] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:21:57.453] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:21:57.467] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:21:57.481] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:21:57.495] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:42:56.861] Your IP: 172.17.0.2 
+[2019-12-12 13:42:56.876] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:42:56.884] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:42:56.892] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:42:56.900] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:42:56.913] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:42:56.922] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:42:56.937] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:42:56.947] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:42:59.040] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:42:59.049] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:42:59.831] UnRegistered P-Rep Network  
+[2019-12-12 13:43:00.452] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7ff774338bc8>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:43:00.463] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:43:00.570] Add USER_DEFINED_ENV 
+[2019-12-12 13:43:00.644] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:43:17.830] Your IP: 172.17.0.2 
+[2019-12-12 13:43:17.843] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:43:17.857] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:43:17.869] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:43:17.882] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:43:17.905] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:43:17.918] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:43:17.931] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:43:17.944] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:43:18.768] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:43:18.779] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:43:19.496] UnRegistered P-Rep Network  
+[2019-12-12 13:43:20.016] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f766f113ec8>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:43:20.025] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:43:20.130] Add USER_DEFINED_ENV 
+[2019-12-12 13:43:20.190] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:43:43.317] Your IP: 172.17.0.2 
+[2019-12-12 13:43:43.327] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:43:43.337] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:43:43.347] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:43:43.357] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:43:43.365] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:43:43.374] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:43:43.382] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:43:43.390] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:43:43.838] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:43:43.849] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:43:44.622] UnRegistered P-Rep Network  
+[2019-12-12 13:43:45.188] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f6ee9695508>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:43:45.201] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:43:45.312] Add USER_DEFINED_ENV 
+[2019-12-12 13:43:45.379] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:44:24.920] Your IP: 172.17.0.2 
+[2019-12-12 13:44:24.932] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:44:24.944] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:44:24.954] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:44:24.965] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:44:24.976] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:44:24.987] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:44:24.997] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:44:25.005] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:44:25.487] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:44:25.503] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:44:26.346] UnRegistered P-Rep Network  
+[2019-12-12 13:44:26.876] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f86cdb92f48>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:44:26.884] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:44:26.995] Add USER_DEFINED_ENV 
+[2019-12-12 13:44:27.054] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:44:57.505] Your IP: 172.17.0.2 
+[2019-12-12 13:44:57.516] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:44:57.526] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:44:57.536] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:44:57.545] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:44:57.553] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:44:57.561] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:44:57.569] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:44:57.578] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:44:58.045] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:44:58.055] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:44:58.874] UnRegistered P-Rep Network  
+[2019-12-12 13:44:59.252] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f1b615bff08>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:44:59.265] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:44:59.369] Add USER_DEFINED_ENV 
+[2019-12-12 13:44:59.430] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:45:11.397] Your IP: 172.17.0.2 
+[2019-12-12 13:45:11.407] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:45:11.417] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:45:11.427] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:45:11.436] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:45:11.445] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:45:11.454] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:45:11.463] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:45:11.473] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:45:11.938] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:45:11.947] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:45:12.679] UnRegistered P-Rep Network  
+[2019-12-12 13:45:13.496] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f3ef2e92748>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:45:13.507] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:45:13.615] Add USER_DEFINED_ENV 
+[2019-12-12 13:45:13.676] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:48:00.959] Your IP: 172.17.0.2 
+[2019-12-12 13:48:00.970] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:48:00.979] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:48:00.987] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:48:00.996] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:48:01.005] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:48:01.015] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:48:01.023] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:48:01.032] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:48:01.478] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:48:01.487] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:48:02.315] UnRegistered P-Rep Network  
+[2019-12-12 13:48:02.718] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f01be3211c8>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:48:02.730] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:48:02.836] Add USER_DEFINED_ENV 
+[2019-12-12 13:48:02.896] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:48:09.953] Your IP: 172.17.0.2 
+[2019-12-12 13:48:09.961] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:48:09.967] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:48:09.974] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:48:09.982] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:48:09.989] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:48:09.996] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:48:10.003] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:48:10.009] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:48:10.488] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:48:10.495] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:48:11.179] UnRegistered P-Rep Network  
+[2019-12-12 13:48:11.505] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7fe5030d7a88>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:48:11.512] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:48:11.617] Add USER_DEFINED_ENV 
+[2019-12-12 13:48:11.663] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:48:54.392] Your IP: 172.17.0.2 
+[2019-12-12 13:48:54.404] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:48:54.415] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:48:54.426] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:48:54.437] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:48:54.445] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:48:54.453] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:48:54.460] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 13:48:54.468] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 13:48:54.942] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 13:48:54.954] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 13:48:55.823] UnRegistered P-Rep Network  
+[2019-12-12 13:48:56.221] == [92mUnexpected error: : [0m[93m(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'status_code'"), <traceback object at 0x7f0f6951bd08>) [0m
+[OK] Write json file -> /prep_peer/conf/configure.json, 1.3 KB
+Alive peer_list=[], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-12 13:48:56.234] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-12 13:48:56.360] Add USER_DEFINED_ENV 
+[2019-12-12 13:48:56.416] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-12 13:57:22.528] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 2222  
+[2019-12-12 13:57:22.536] Stopped script 
+[2019-12-12 13:58:10.568] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 2222  
+[2019-12-12 13:58:10.575] Stopped script 
+[2019-12-12 13:58:31.058] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 13:58:31.064] Stopped script 
+[2019-12-12 13:58:46.180] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 13:58:46.186] Stopped script 
+[2019-12-12 13:58:54.568] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.1  
+[2019-12-12 13:58:54.574] Stopped script 
+[2019-12-12 13:59:06.601] Your IP: 20.20.1.1 
+[2019-12-12 13:59:06.612] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:59:06.622] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:59:06.631] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:59:06.639] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:59:06.649] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:59:06.658] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:59:09.767] Your IP: 20.20.1.1 
+[2019-12-12 13:59:09.778] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:59:09.788] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:59:09.797] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:59:09.805] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:59:09.814] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:59:09.823] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:59:14.083] Your IP: 20.20.1.20 
+[2019-12-12 13:59:14.092] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:59:14.102] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:59:14.110] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:59:14.120] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:59:14.130] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:59:14.140] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:59:22.621] [OK] CHECK=0, Check valid IPaddr -> 20.20.1.20  
+[2019-12-12 13:59:22.630] Your IP: 20.20.1.20 
+[2019-12-12 13:59:22.639] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:59:22.647] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:59:22.655] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:59:22.663] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:59:22.672] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:59:22.681] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 13:59:32.291] [OK] CHECK=0, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 13:59:32.303] Your IP: 58.234.156.141 
+[2019-12-12 13:59:32.314] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 13:59:32.327] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 13:59:32.336] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 13:59:32.348] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 13:59:32.356] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 13:59:32.366] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:00:03.383] [OK] CHECK=0, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:03.392] Your IP: 58.234.156.141 
+[2019-12-12 14:00:03.400] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:00:03.409] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:00:03.418] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:00:03.427] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:00:03.435] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:00:03.444] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:00:13.464] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:13.470] Stopped script 
+[2019-12-12 14:00:33.121] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:33.127] Stopped script 
+[2019-12-12 14:00:46.815] [OK] CHECK=0, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:46.827] Your IP: 58.234.156.141 
+[2019-12-12 14:00:46.838] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:00:46.850] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:00:46.860] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:00:46.871] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:00:46.883] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:00:46.893] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:00:57.925] [OK] CHECK=0, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:57.933] Your IP: 58.234.156.141 
+[2019-12-12 14:00:57.941] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:00:57.949] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:00:57.959] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:00:57.967] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:00:57.977] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:00:57.985] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:00:59.103] [OK] CHECK=0, Check valid IPaddr -> 58.234.156.141  
+[2019-12-12 14:00:59.114] Your IP: 58.234.156.141 
+[2019-12-12 14:00:59.123] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:00:59.134] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:00:59.142] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:00:59.151] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:00:59.158] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:00:59.166] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:01:09.230] [OK] CHECK=0, Check valid IPaddr -> 20.20.1.2  
+[2019-12-12 14:01:09.238] Your IP: 20.20.1.2 
+[2019-12-12 14:01:09.246] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:01:09.255] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:01:09.265] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:01:09.277] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:01:09.288] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:01:09.298] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:01:13.602] [OK] CHECK=0, Check valid IPaddr -> 20.20.1.30  
+[2019-12-12 14:01:13.611] Your IP: 20.20.1.30 
+[2019-12-12 14:01:13.620] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:01:13.632] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:01:13.641] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:01:13.651] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:01:13.659] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:01:13.668] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:01:17.365] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:01:17.372] Stopped script 
+[2019-12-12 14:01:55.713] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:01:55.719] Stopped script 
+[2019-12-12 14:02:03.828] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:02:03.835] Stopped script 
+[2019-12-12 14:02:46.968] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:02:46.973] Stopped script 
+[2019-12-12 14:03:29.738] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:03:29.743] Stopped script 
+[2019-12-12 14:09:15.930] [ERROR] [FAIL] CHECK=1, Check valid IPaddr -> 20.20.1.300  
+[2019-12-12 14:09:15.938] Stopped script 
+[2019-12-12 14:09:21.860] [OK] CHECK=0, Check valid IPaddr -> 20.20.1.200  
+[2019-12-12 14:09:21.868] Your IP: 20.20.1.200 
+[2019-12-12 14:09:21.877] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:09:21.889] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:09:21.899] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:09:21.906] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:09:21.915] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:09:21.923] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:09:37.346] [OK] CHECK=0, Check valid IPaddr -> 20.20.1.200  
+[2019-12-12 14:09:37.353] Your IP: 20.20.1.200 
+[2019-12-12 14:09:37.361] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:09:37.369] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:09:37.379] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:09:37.387] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:09:37.397] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:09:37.405] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:34:12.333] [OK] CHECK=0, Check valid IPaddr -> 172.17.0.2  
+[2019-12-12 14:34:12.344] Your IP: 172.17.0.2 
+[2019-12-12 14:34:12.353] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:34:12.363] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:34:12.373] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:34:12.382] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:34:12.393] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:34:12.402] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:34:12.411] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 14:34:12.419] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 14:34:12.888] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 14:34:12.901] NETWORK_ENV=PREP-TestNet, SERVICE=zicon, ENDPOINT_URL=https://zicon.net.solidwallet.io, SERVICE_API = https://zicon.net.solidwallet.io/api/v3 
+[2019-12-12 14:34:13.482] [OK] CHECK=0, Peer ID: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4 
+[2019-12-12 14:34:13.491] builtinScoreOwner = hx6e1dd0d4432620778b54b2bbc21ac3df961adf89 
+[2019-12-12 14:34:16.176] UnRegistered P-Rep Network  
+[2019-12-12 14:38:33.152] Your IP: 172.17.0.2 
+[2019-12-12 14:38:33.163] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:38:33.172] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:38:33.181] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:38:33.189] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:38:33.198] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:38:33.205] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:38:33.213] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 14:38:33.222] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 14:38:33.680] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 14:38:33.688] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 14:38:34.374] UnRegistered P-Rep Network  
+[2019-12-12 14:38:40.770] Your IP: 172.17.0.2 
+[2019-12-12 14:38:40.783] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:38:40.798] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:38:40.815] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:38:40.830] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:38:40.846] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:38:40.866] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:38:40.883] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 14:38:40.904] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 14:38:41.395] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 14:38:41.408] NETWORK_ENV=PREP-TestNet, SERVICE=mainnet, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 14:38:42.292] UnRegistered P-Rep Network  
+[2019-12-12 14:38:48.154] Your IP: 172.17.0.2 
+[2019-12-12 14:38:48.172] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-12 14:38:48.184] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-12 14:38:48.193] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-12 14:38:48.202] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-12 14:38:48.213] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-12 14:38:48.225] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-12 14:38:48.233] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-12 14:38:48.243] P-REP package version info - prep-node_1912021444x78adc5 
+[2019-12-12 14:38:48.718] iconcommons             1.1.2     
+iconrpcserver           1.4.8     
+iconsdk                 1.2.0     
+iconservice             1.5.19    
+loopchain               2.4.19     
+[2019-12-12 14:38:48.727] NETWORK_ENV=PREP-TestNet, SERVICE=zicon, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-12 14:38:49.557] UnRegistered P-Rep Network  

@@ -1,0 +1,148 @@
+2019-12-20 14:51:07,265 484 139642099463936 INFO icon_service_cli.py(133) LOG start_server() start
+2019-12-20 14:51:07,293 484 139642099463936 INFO icon_service_cli.py(159) LOG start_process() end
+2019-12-20 14:51:07,295 484 139642099463936 INFO icon_service_cli.py(116) IconServiceCli start_command done!
+2019-12-20 14:51:07,882 501 140038644082432 INFO icon_logger_util.py(143) ====================LOG CONFIG START====================
+2019-12-20 14:51:07,883 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.logger] > iconservice
+2019-12-20 14:51:07,885 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.colorLog] > True
+2019-12-20 14:51:07,887 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.level] > DEBUG
+2019-12-20 14:51:07,888 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.filePath] > /data/PREP-TestNet/log/iconservice.log
+2019-12-20 14:51:07,890 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.outputType] > file|console
+2019-12-20 14:51:07,891 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.rotate.type] > period|bytes
+2019-12-20 14:51:07,893 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.rotate.period] > daily
+2019-12-20 14:51:07,894 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.rotate.interval] > 1
+2019-12-20 14:51:07,895 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.rotate.backupCount] > 10
+2019-12-20 14:51:07,897 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.log.rotate.maxBytes] > 50000000
+2019-12-20 14:51:07,898 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.scoreRootPath] > /data/PREP-TestNet/.score_data/score
+2019-12-20 14:51:07,899 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.stateDbRootPath] > /data/PREP-TestNet/.score_data/db
+2019-12-20 14:51:07,900 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.channel] > icon_dex
+2019-12-20 14:51:07,901 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.amqpKey] > 7100
+2019-12-20 14:51:07,903 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.amqpTarget] > 127.0.0.1
+2019-12-20 14:51:07,904 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.builtinScoreOwner] > hx6e1dd0d4432620778b54b2bbc21ac3df961adf89
+2019-12-20 14:51:07,906 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.ipcTimeout] > 10
+2019-12-20 14:51:07,907 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.service.fee] > True
+2019-12-20 14:51:07,908 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.service.audit] > False
+2019-12-20 14:51:07,910 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.service.deployerWhiteList] > False
+2019-12-20 14:51:07,912 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.service.scorePackageValidator] > False
+2019-12-20 14:51:07,913 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissMetaData.rewardMin] > 200
+2019-12-20 14:51:07,914 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissMetaData.rewardMAX] > 1200
+2019-12-20 14:51:07,916 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissMetaData.rewardPoint] > 7000
+2019-12-20 14:51:07,917 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissMetaData.lockMin] > 216000
+2019-12-20 14:51:07,919 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissMetaData.lockMax] > 864000
+2019-12-20 14:51:07,920 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iconRcPath] > 
+2019-12-20 14:51:07,921 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.iissCalculatePeriod] > 60
+2019-12-20 14:51:07,922 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.termPeriod] > 60
+2019-12-20 14:51:07,924 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.initialIRep] > 50000000000000000000000
+2019-12-20 14:51:07,925 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.prepRegistrationFee] > 2000000000000000000000
+2019-12-20 14:51:07,926 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.mainPRepCount] > 6
+2019-12-20 14:51:07,927 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.mainAndSubPRepCount] > 20
+2019-12-20 14:51:07,928 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.decentralizeTrigger] > 0.0001
+2019-12-20 14:51:07,929 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.penaltyGracePeriod] > 86400
+2019-12-20 14:51:07,930 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.lowProductivityPenaltyThreshold] > 85
+2019-12-20 14:51:07,931 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.blockValidationPenaltyThreshold] > 10
+2019-12-20 14:51:07,932 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.stepTraceFlag] > False
+2019-12-20 14:51:07,933 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.precommitDataLogFlag] > False
+2019-12-20 14:51:07,934 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.config] > /prep_peer/conf/iconservice.json
+2019-12-20 14:51:07,934 501 140038644082432 INFO icon_logger_util.py(152) [CONFIG.tbearsMode] > False
+2019-12-20 14:51:07,935 501 140038644082432 INFO icon_logger_util.py(145) ====================LOG CONFIG END======================
+2019-12-20 14:51:07,955 501 140038644082432 INFO icon_service.py(65) IconService ==========IconService Service params==========
+2019-12-20 14:51:07,960 501 140038644082432 INFO icon_service.py(67) IconService version : 1.5.20
+2019-12-20 14:51:07,962 501 140038644082432 INFO icon_service.py(68) IconService score_root_path : /data/PREP-TestNet/.score_data/score
+2019-12-20 14:51:07,965 501 140038644082432 INFO icon_service.py(69) IconService icon_score_state_db_root_path  : /data/PREP-TestNet/.score_data/db
+2019-12-20 14:51:07,966 501 140038644082432 INFO icon_service.py(70) IconService amqp_target  : 127.0.0.1
+2019-12-20 14:51:07,967 501 140038644082432 INFO icon_service.py(71) IconService amqp_key  :  7100
+2019-12-20 14:51:07,972 501 140038644082432 INFO icon_service.py(72) IconService icon_score_queue_name  : IconScore.icon_dex.7100
+2019-12-20 14:51:07,973 501 140038644082432 INFO icon_service.py(73) IconService ==========IconService Service params==========
+2019-12-20 14:51:07,976 501 140038644082432 INFO icon_inner_service.py(58) IconInnerService icon_score_service open
+2019-12-20 14:51:08,019 501 140038644082432 DEBUG engine.py(57) PREP PRepEngine.__init__() start
+2019-12-20 14:51:08,022 501 140038644082432 DEBUG engine.py(81) PREP PRepEngine.__init__() end
+2019-12-20 14:51:08,025 501 140038644082432 DEBUG icon_service_engine.py(2009) WAL _recover_dbs() start: rc_data_path=/data/PREP-TestNet/.score_data/db/iiss
+2019-12-20 14:51:08,028 501 140038644082432 DEBUG icon_service_engine.py(2013) WAL _recover_dbs() end: No WAL file /data/PREP-TestNet/.score_data/db/block.wal
+2019-12-20 14:51:08,030 501 140038644082432 DEBUG reward_calc_proxy.py(51) RCP __init__() start
+2019-12-20 14:51:08,032 501 140038644082432 INFO reward_calc_proxy.py(52) RCP ipc_timeout: 10
+2019-12-20 14:51:08,034 501 140038644082432 DEBUG reward_calc_proxy.py(66) RCP __init__() end
+2019-12-20 14:51:08,036 501 140038644082432 DEBUG reward_calc_proxy.py(69) RCP open() start
+2019-12-20 14:51:08,038 501 140038644082432 INFO server.py(39) RCP open() start
+2019-12-20 14:51:08,040 501 140038644082432 INFO server.py(49) RCP open() end
+2019-12-20 14:51:08,042 501 140038644082432 DEBUG reward_calc_proxy.py(488) RCP run reward calc
+2019-12-20 14:51:08,046 501 140038644082432 INFO reward_calc_proxy.py(507) RCP cmd=icon_rc -client -monitor -db-count 16 -db /data/PREP-TestNet/.score_data/db/rc -iissdata /data/PREP-TestNet/.score_data/db/iiss -ipc-addr /tmp/iiss_7100.sock -log-file /data/PREP-TestNet/log/rc.log
+2019-12-20 14:51:08,068 501 140038644082432 DEBUG reward_calc_proxy.py(510) RCP start_reward_calc() end
+2019-12-20 14:51:08,071 501 140038644082432 DEBUG reward_calc_proxy.py(80) RCP open() end
+2019-12-20 14:51:08,073 501 140038644082432 DEBUG reward_calc_proxy.py(83) RCP start() end
+2019-12-20 14:51:08,076 501 140038644082432 INFO server.py(52) RCP start() start
+2019-12-20 14:51:08,080 501 140038644082432 INFO server.py(61) RCP start() end
+2019-12-20 14:51:08,082 501 140038644082432 DEBUG reward_calc_proxy.py(87) RCP start() end
+2019-12-20 14:51:08,084 501 140038644082432 INFO penalty_imposer.py(44) LOG [PenaltyImposer Init] penalty_grace_period: 86400 low_productivity_penalty_threshold: 85 block_validation_penalty_threshold: 10
+2019-12-20 14:51:08,087 501 140038644082432 DEBUG storage.py(105) IconService_Icx _load_address_from_storage() start(address type: genesis)
+2019-12-20 14:51:08,089 501 140038644082432 DEBUG storage.py(121) IconService_Icx _load_address_from_storage() end(address type: genesis)
+2019-12-20 14:51:08,091 501 140038644082432 DEBUG storage.py(105) IconService_Icx _load_address_from_storage() start(address type: fee_treasury)
+2019-12-20 14:51:08,094 501 140038644082432 DEBUG storage.py(121) IconService_Icx _load_address_from_storage() end(address type: fee_treasury)
+2019-12-20 14:51:08,102 501 140038644082432 INFO storage.py(245) IISS Create new current_db
+2019-12-20 14:51:08,143 501 140038644082432 INFO storage.py(90) IISS last_transaction_index on open=-1
+2019-12-20 14:51:08,236 501 140038644082432 DEBUG governance.py(138) Governance on_install: owner = "hx6e1dd0d4432620778b54b2bbc21ac3df961adf89"
+2019-12-20 14:51:08,283 501 140038644082432 DEBUG icon_service.py(88) LOG icon service will be closed while open the icon service engine. check if the config is valid
+2019-12-20 14:51:08,310 501 140038644082432 INFO icon_service.py(54) IconService Start IconService Service serve!
+2019-12-20 14:51:09,244 501 140038644082432 INFO server.py(85) RCP on_accepted() start: <StreamReader transport=<_SelectorSocketTransport fd=17 read=idle write=<idle, bufsize=0>>> <StreamWriter transport=<_SelectorSocketTransport fd=17 read=idle write=<idle, bufsize=0>> reader=<StreamReader transport=<_SelectorSocketTransport fd=17 read=idle write=<idle, bufsize=0>>>>
+2019-12-20 14:51:09,249 501 140038644082432 INFO server.py(90) RCP on_accepted() end
+2019-12-20 14:51:09,252 501 140038644082432 INFO server.py(93) RCP _on_send() start
+2019-12-20 14:51:09,255 501 140038644082432 INFO server.py(120) RCP _on_recv() start
+2019-12-20 14:51:09,257 501 140038644082432 DEBUG server.py(128) RCP _on_recv(): data(936400930200da00200000000000000000000000000000000000000000000000000000000000000000)
+2019-12-20 14:51:09,260 501 140038644082432 INFO server.py(133) RCP Received Data : READY(0, 2, 0, 0x0000000000000000000000000000000000000000000000000000000000000000)
+2019-12-20 14:51:09,263 501 140038644082432 DEBUG reward_calc_proxy.py(474) RCP notify_handler() start <class 'iconservice.iiss.reward_calc.ipc.message.ReadyNotification'>
+2019-12-20 14:51:09,265 501 140038644082432 DEBUG reward_calc_proxy.py(458) RCP ready_handler() start READY(0, 2, 0, 0x0000000000000000000000000000000000000000000000000000000000000000)
+2019-12-20 14:51:09,267 501 140038644082432 DEBUG engine.py(117) IISS ready_callback() start: READY(0, 2, 0, 0x0000000000000000000000000000000000000000000000000000000000000000)
+2019-12-20 14:51:09,270 501 140038644082432 DEBUG engine.py(118) IISS ready_callback() end
+2019-12-20 14:51:11,161 501 140038644082432 INFO icon_inner_service.py(75) IconInnerService hello() start
+2019-12-20 14:51:11,164 501 140038491817728 DEBUG icon_service_engine.py(2130) ISE hello() start
+2019-12-20 14:51:11,166 501 140038491817728 DEBUG icon_service_engine.py(2152) ISE hello() end
+2019-12-20 14:51:11,168 501 140038644082432 INFO icon_inner_service.py(86) IconInnerService hello() end
+2019-12-20 14:51:11,686 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:11,705 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '-0x1', 'blockHash': '00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', 'timestamp': '0x0', 'prevBlockHash': None}}
+2019-12-20 14:51:11,871 501 140038644082432 INFO icon_inner_service.py(113) IconInnerService invoke request with {'block': {'blockHeight': 0, 'blockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964', 'timestamp': '0x5998196fbe91e'}, 'transactions': [{'method': 'icx_sendTransaction', 'params': {'txHash': '7c3f44b5f2a54a7d5d6c5808fb1ab1203a5d66c90ca8721d290ff5108d79f6ad'}, 'genesisData': {'accounts': [{'balance': '0x14b40b4198472d797800000', 'name': 'god - rebalance', 'address': 'hx5a05b58a25a1e5ea0f1d5715e1f655dffc1fb30a'}, {'balance': '0x0', 'name': 'treasury', 'address': 'hx1000000000000000000000000000000000000000'}, {'balance': '0x52b7d2dcc80cd2e4000000', 'name': 'test_1', 'address': 'hx6e1dd0d4432620778b54b2bbc21ac3df961adf89'}, {'balance': '0x0', 'name': 'jinwoo', 'address': 'hx19c1579d25d429c088965421dc698ea2f5ea8dd9'}, {'balance': '0x52b7d2dcc80cd2e4000000', 'name': 'prep_test1', 'address': 'hxed5a4393e35d2edcc7bcab4ffa603ef6e895097b'}, {'balance': '0x52b7d2dcc80cd2e4000000', 'name': 'prep_test2', 'address': 'hx72bff0f887ef183bde1391dc61375f096e75c74a'}, {'balance': '0x52b7d2dcc80cd2e4000000', 'name': 'prep_test3', 'address': 'hxa067296997056e507ac2296573472f3c750d8b62'}], 'message': 'P-Rep TestNet V3', 'nid': '0x50'}}]}
+2019-12-20 14:51:11,875 501 140038491817728 INFO icon_inner_service.py(169) IconInnerService invoke origin response with {'txResults': {'7c3f44b5f2a54a7d5d6c5808fb1ab1203a5d66c90ca8721d290ff5108d79f6ad': {'txHash': b'|?D\xb5\xf2\xa5J}]lX\x08\xfb\x1a\xb1 :]f\xc9\x0c\xa8r\x1d)\x0f\xf5\x10\x8dy\xf6\xad', 'blockHeight': 0, 'blockHash': b'x\xda\x91\xd6\xd2+\xe0x=\xa7\xcb3\xca\xd3\xae\xed\xeb\xed\x813\xdc\x9f3\x7f\x987\xb1\x8a\xbfH9d', 'txIndex': 0, 'stepUsed': 0, 'stepPrice': 0, 'cumulativeStepUsed': 0, 'status': 1}}, 'stateRootHash': 'c796c6ca25c23d34344ec8c0fad7f852320b9733eebfd0359f7742f8b1074055', 'addedTransactions': {}}
+2019-12-20 14:51:11,894 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:11,896 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '-0x1', 'blockHash': '00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', 'timestamp': '0x0', 'prevBlockHash': None}}
+2019-12-20 14:51:11,914 501 140038644082432 INFO icon_inner_service.py(268) IconInnerService write_precommit_state request with {'blockHeight': 0, 'oldBlockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964', 'newBlockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964'}
+2019-12-20 14:51:11,915 501 140038491817728 DEBUG batch.py(178) DB set_block_to_batch() block=Block(height=0, hash=0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964, prev_hash=0x0000000000000000000000000000000000000000000000000000000000000000, timestamp=1576156746475806, cumulative_fee=0)
+2019-12-20 14:51:11,917 501 140038491817728 INFO icon_inner_service.py(311) IconInnerService write_precommit_state response with 0x0
+2019-12-20 14:51:12,028 501 140038644082432 INFO icon_inner_service.py(113) IconInnerService invoke request with {'block': {'blockHeight': '0x1', 'blockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372', 'prevBlockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964', 'timestamp': '0x59981971b8b18'}, 'isBlockEditable': '0x0', 'transactions': [], 'prevBlockGenerator': '', 'prevBlockValidators': [], 'prevBlockVotes': []}
+2019-12-20 14:51:12,031 501 140038491817728 INFO icon_inner_service.py(169) IconInnerService invoke origin response with {'txResults': [], 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a', 'addedTransactions': {}}
+2019-12-20 14:51:12,067 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:12,074 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '0x0', 'blockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964', 'timestamp': '0x5998196fbe91e', 'prevBlockHash': '0000000000000000000000000000000000000000000000000000000000000000'}}
+2019-12-20 14:51:12,100 501 140038644082432 INFO icon_inner_service.py(268) IconInnerService write_precommit_state request with {'blockHeight': '0x1', 'oldBlockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372', 'newBlockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372'}
+2019-12-20 14:51:12,103 501 140038491817728 DEBUG batch.py(178) DB set_block_to_batch() block=Block(height=1, hash=0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372, prev_hash=0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964, timestamp=1576156748548888, cumulative_fee=0)
+2019-12-20 14:51:12,107 501 140038491817728 INFO icon_inner_service.py(311) IconInnerService write_precommit_state response with 0x0
+2019-12-20 14:51:12,197 501 140038644082432 INFO icon_inner_service.py(113) IconInnerService invoke request with {'block': {'blockHeight': '0x2', 'blockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e', 'prevBlockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372', 'timestamp': '0x5998199a1e58f'}, 'isBlockEditable': '0x0', 'transactions': [], 'prevBlockGenerator': 'hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0', 'prevBlockValidators': ['hxec916f43c60804e5265b5ef071ae06ee7d921a54', 'hx757f33073436d71c671f0daaa570283e96af1650', 'hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', 'hx2e3ad976ef8dddc579d5e24d23a130e975652240', 'hx3e1227d9c46298325a7845d3d5198270bf6f70bc', 'hxf5ef1588c533454e15d7aeb71247e74cfdc1170d'], 'prevBlockVotes': [['hx176b4bb390b8e6b6894f17507594a8a155696501', '0x0'], ['hx6834efa18f6abe7d99de79e9bc9116f82e155620', '0x0'], ['hxec916f43c60804e5265b5ef071ae06ee7d921a54', '0x1'], ['hx757f33073436d71c671f0daaa570283e96af1650', '0x1'], ['hxf67f90396bda331f84831ac5a1fc85301696c11f', '0x0'], ['hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', '0x1'], ['hx2e3ad976ef8dddc579d5e24d23a130e975652240', '0x1'], ['hx3e1227d9c46298325a7845d3d5198270bf6f70bc', '0x1'], ['hxf5ef1588c533454e15d7aeb71247e74cfdc1170d', '0x1']]}
+2019-12-20 14:51:12,200 501 140038491817728 INFO icon_inner_service.py(169) IconInnerService invoke origin response with {'txResults': [], 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a', 'addedTransactions': {}}
+2019-12-20 14:51:12,225 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:12,227 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '0x1', 'blockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372', 'timestamp': '0x59981971b8b18', 'prevBlockHash': '78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964'}}
+2019-12-20 14:51:12,243 501 140038644082432 INFO icon_inner_service.py(268) IconInnerService write_precommit_state request with {'blockHeight': '0x2', 'oldBlockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e', 'newBlockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e'}
+2019-12-20 14:51:12,244 501 140038491817728 DEBUG batch.py(178) DB set_block_to_batch() block=Block(height=2, hash=0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e, prev_hash=0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372, timestamp=1576156790908303, cumulative_fee=0)
+2019-12-20 14:51:12,246 501 140038491817728 INFO icon_inner_service.py(311) IconInnerService write_precommit_state response with 0x0
+2019-12-20 14:51:12,509 501 140038644082432 INFO icon_inner_service.py(113) IconInnerService invoke request with {'block': {'blockHeight': '0x3', 'blockHash': '814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29', 'prevBlockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e', 'timestamp': '0x5998199a534f1'}, 'isBlockEditable': '0x0', 'transactions': [], 'prevBlockGenerator': 'hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0', 'prevBlockValidators': ['hx6834efa18f6abe7d99de79e9bc9116f82e155620', 'hxec916f43c60804e5265b5ef071ae06ee7d921a54', 'hx757f33073436d71c671f0daaa570283e96af1650', 'hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', 'hx2e3ad976ef8dddc579d5e24d23a130e975652240', 'hx3e1227d9c46298325a7845d3d5198270bf6f70bc', 'hxf5ef1588c533454e15d7aeb71247e74cfdc1170d'], 'prevBlockVotes': [['hx176b4bb390b8e6b6894f17507594a8a155696501', '0x0'], ['hx6834efa18f6abe7d99de79e9bc9116f82e155620', '0x1'], ['hxec916f43c60804e5265b5ef071ae06ee7d921a54', '0x1'], ['hx757f33073436d71c671f0daaa570283e96af1650', '0x1'], ['hxf67f90396bda331f84831ac5a1fc85301696c11f', '0x0'], ['hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', '0x1'], ['hx2e3ad976ef8dddc579d5e24d23a130e975652240', '0x1'], ['hx3e1227d9c46298325a7845d3d5198270bf6f70bc', '0x1'], ['hxf5ef1588c533454e15d7aeb71247e74cfdc1170d', '0x1']]}
+2019-12-20 14:51:12,511 501 140038491817728 INFO icon_inner_service.py(169) IconInnerService invoke origin response with {'txResults': [], 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a', 'addedTransactions': {}}
+2019-12-20 14:51:12,545 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:12,547 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '0x2', 'blockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e', 'timestamp': '0x5998199a1e58f', 'prevBlockHash': '38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372'}}
+2019-12-20 14:51:12,573 501 140038644082432 INFO icon_inner_service.py(268) IconInnerService write_precommit_state request with {'blockHeight': '0x3', 'oldBlockHash': '814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29', 'newBlockHash': '814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29'}
+2019-12-20 14:51:12,574 501 140038491817728 DEBUG batch.py(178) DB set_block_to_batch() block=Block(height=3, hash=0x814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29, prev_hash=0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e, timestamp=1576156791125233, cumulative_fee=0)
+2019-12-20 14:51:12,576 501 140038491817728 INFO icon_inner_service.py(311) IconInnerService write_precommit_state response with 0x0
+2019-12-20 14:51:12,644 501 140038644082432 INFO icon_inner_service.py(113) IconInnerService invoke request with {'block': {'blockHeight': '0x4', 'blockHash': 'e0525a0a176bed848a44351089d71bd5cef3d73b1d6c6895517d45ffde2ca5dc', 'prevBlockHash': '814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29', 'timestamp': '0x5998199a88489'}, 'isBlockEditable': '0x0', 'transactions': [], 'prevBlockGenerator': 'hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0', 'prevBlockValidators': ['hx6834efa18f6abe7d99de79e9bc9116f82e155620', 'hxec916f43c60804e5265b5ef071ae06ee7d921a54', 'hx757f33073436d71c671f0daaa570283e96af1650', 'hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', 'hx2e3ad976ef8dddc579d5e24d23a130e975652240', 'hx3e1227d9c46298325a7845d3d5198270bf6f70bc', 'hxf5ef1588c533454e15d7aeb71247e74cfdc1170d'], 'prevBlockVotes': [['hx176b4bb390b8e6b6894f17507594a8a155696501', '0x0'], ['hx6834efa18f6abe7d99de79e9bc9116f82e155620', '0x1'], ['hxec916f43c60804e5265b5ef071ae06ee7d921a54', '0x1'], ['hx757f33073436d71c671f0daaa570283e96af1650', '0x1'], ['hxf67f90396bda331f84831ac5a1fc85301696c11f', '0x0'], ['hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', '0x1'], ['hx2e3ad976ef8dddc579d5e24d23a130e975652240', '0x1'], ['hx3e1227d9c46298325a7845d3d5198270bf6f70bc', '0x1'], ['hxf5ef1588c533454e15d7aeb71247e74cfdc1170d', '0x1']]}
+2019-12-20 14:51:12,646 501 140038491817728 INFO icon_inner_service.py(169) IconInnerService invoke origin response with {'txResults': [], 'stateRootHash': 'a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a', 'addedTransactions': {}}
+2019-12-20 14:51:12,665 501 140038644082432 DEBUG icon_inner_service.py(191) IconInnerService query request with {'method': 'ise_getStatus', 'params': {'filter': ['lastBlock']}}
+2019-12-20 14:51:12,670 501 140038644082432 INFO icon_inner_service.py(94) IIS _close() start
+2019-12-20 14:51:12,694 501 140038644082432 DEBUG reward_calc_proxy.py(90) RCP stop() start
+2019-12-20 14:51:12,672 501 140038415316736 DEBUG icon_inner_service.py(228) IconInnerService query response with {'lastBlock': {'blockHeight': '0x3', 'blockHash': '814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29', 'timestamp': '0x5998199a534f1', 'prevBlockHash': '0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e'}}
+2019-12-20 14:51:12,695 501 140038644082432 INFO reward_calc_proxy.py(109) RCP _stop_message_queue() start
+2019-12-20 14:51:12,699 501 140038644082432 INFO reward_calc_proxy.py(114) RCP _stop_message_queue() end
+2019-12-20 14:51:12,711 501 140038644082432 INFO server.py(64) RCP stop() start
+2019-12-20 14:51:12,720 501 140038644082432 INFO server.py(74) RCP stop() end
+2019-12-20 14:51:12,727 501 140038644082432 DEBUG reward_calc_proxy.py(95) RCP stop() end
+2019-12-20 14:51:12,737 501 140038644082432 DEBUG reward_calc_proxy.py(98) RCP close() start
+2019-12-20 14:51:12,740 501 140038644082432 INFO server.py(77) RCP close() start
+2019-12-20 14:51:12,745 501 140038644082432 INFO server.py(82) RCP close() end
+2019-12-20 14:51:12,748 501 140038644082432 DEBUG reward_calc_proxy.py(528) RCP stop reward calc
+2019-12-20 14:51:12,755 501 140038644082432 DEBUG reward_calc_proxy.py(106) RCP close() end
+2019-12-20 14:51:12,780 501 140038644082432 INFO icon_inner_service.py(101) IIS _close() end
+2019-12-20 14:51:12,794 501 140038644082432 DEBUG icon_service.py(106) LOG loop has been stopped and will be closed
+2019-12-20 14:51:12,796 501 140038644082432 INFO server.py(117) RCP _on_send() end
+2019-12-20 14:51:12,798 501 140038644082432 INFO server.py(141) RCP _on_recv() end
+2019-12-20 14:51:12,800 501 140038644082432 INFO icon_service.py(160) IconServiceCli ==========IconService Done==========

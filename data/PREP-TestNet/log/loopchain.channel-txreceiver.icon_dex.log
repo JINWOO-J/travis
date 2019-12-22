@@ -1,0 +1,36 @@
+1203 09:51:12,690 575 140238110041856 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 09:51:12,691 575 140238110041856 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 09:54:45,934 575 140238110041856 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 09:54:45,936 575 140238110041856 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 09:57:39,543 564 140246648575744 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 09:57:39,545 564 140246648575744 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 10:08:22,898 564 140246648575744 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 10:08:22,905 564 140246648575744 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:34:22,664 7786 139752829302528 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:34:22,665 7786 139752829302528 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:37:44,209 7786 139752829302528 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:37:44,214 7786 139752829302528 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:38:22,163 560 139776867116800 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:38:22,164 560 139776867116800 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:39:29,033 560 139776867116800 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:39:29,036 560 139776867116800 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:40:04,368 565 140644968490752 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:40:04,369 565 140644968490752 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:41:54,763 565 140644968490752 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:41:54,772 565 140644968490752 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:42:26,991 564 140534827722496 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:42:26,992 564 140534827722496 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:42:52,424 564 140534827722496 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:42:52,433 564 140534827722496 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:43:53,390 573 140034420987648 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:43:53,392 573 140034420987648 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:46:09,480 573 140034420987648 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:46:09,495 573 140034420987648 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:51:58,768 1646 140068743186176 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:51:58,770 1646 140068743186176 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 11:55:58,857 1646 140068743186176 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 11:55:58,869 1646 140068743186176 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped
+1203 11:58:48,421 563 140404795500288 hxc61616 icon_dex INFO channel_inner_service.py(279) Channel TX Receiver start
+1203 11:58:48,424 563 140404795500288 hxc61616 icon_dex INFO channel_inner_service.py(300) ChannelTxReceiverInnerService: started
+1203 12:02:32,046 563 140404795500288 hxc61616 icon_dex ERROR channel_inner_service.py(292) Channel TX Receiver has been received signal((<Signals.SIGINT: 2>,))
+1203 12:02:32,048 563 140404795500288 hxc61616 icon_dex INFO channel_inner_service.py(305) ChannelTxReceiverInnerService: stopped

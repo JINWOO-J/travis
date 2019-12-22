@@ -1,0 +1,53 @@
+[2019-12-20 15:02:55.336] Your IP: 172.17.0.2 
+[2019-12-20 15:02:55.361] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:02:55.375] DEFAULT_PATH=/data/testnet in Docker Container 
+[2019-12-20 15:02:55.388] DEFAULT_LOG_PATH=/data/testnet/log 
+[2019-12-20 15:02:55.400] DEFAULT_STORAGE_PATH=/data/testnet/.storage 
+[2019-12-20 15:02:55.410] scoreRootPath=/data/testnet/.score_data/score 
+[2019-12-20 15:02:55.422] stateDbRootPath=/data/testnet/.score_data/db 
+[2019-12-20 15:02:55.432] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 15:02:55.441] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:02:55.909] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:02:55.921] NETWORK_ENV=testnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:02:55.946] Already cert keys= /prep_peer/cert/YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 15:03:09.717] Your IP: 172.17.0.2 
+[2019-12-20 15:03:09.727] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:03:09.735] DEFAULT_PATH=/data/testnet in Docker Container 
+[2019-12-20 15:03:09.745] DEFAULT_LOG_PATH=/data/testnet/log 
+[2019-12-20 15:03:09.754] DEFAULT_STORAGE_PATH=/data/testnet/.storage 
+[2019-12-20 15:03:09.765] scoreRootPath=/data/testnet/.score_data/score 
+[2019-12-20 15:03:09.777] stateDbRootPath=/data/testnet/.score_data/db 
+[2019-12-20 15:03:09.787] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 15:03:09.798] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:03:10.279] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:03:10.286] NETWORK_ENV=testnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:03:10.860] [ERROR] [FAIL] CHECK=1, Peer ID: Traceback (most recent call last):
+  File "/src/getPeerID.py", line 33, in from_prikey_file
+    default_backend())
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/primitives/serialization.py", line 32, in load_der_private_key
+    return backend.load_der_private_key(data, password)
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1069, in load_der_private_key
+    password,
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1233, in _load_key
+    self._handle_key_loading_error()
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1291, in _handle_key_loading_error
+    raise ValueError("Could not deserialize key data.")
+ValueError: Could not deserialize key data.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/getPeerID.py", line 64, in <module>
+    print(from_prikey_file(priv_key, password))
+  File "/src/getPeerID.py", line 40, in from_prikey_file
+    raise ValueError("Invalid Password or Certificate load Failure)")
+ValueError: Invalid Password or Certificate load Failure) 
+[2019-12-20 15:03:10.868] Stopped script 

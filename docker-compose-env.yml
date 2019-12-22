@@ -1,0 +1,46 @@
+version: '3'
+services:
+   prep:
+      image: iconloop/prep-node
+      container_name: "user_defined_env"
+      entrypoint: bash -c "while [ 0 ]; do sleep 3; done"
+      network_mode: host
+      environment:
+         LOOPCHAIN_LOG_LEVEL: "DEBUG"
+         LOCAL_TEST: "true"
+         LOG_OUTPUT_TYPE: "file"
+         USER_DEFINED_ENV: | #join with newline  # position=value|config_file
+            .CHANNEL_OPTION.icon_dex.block_versions."0.1a"=10|configure_json
+            .CHANNEL_OPTION.icon_dex.block_versions."0.3"=2000|configure_json
+            .channel.intconf=10|configure_json
+            .channel.intstring="16"| configure_json
+            .channel.space1=10yy| configure_json
+            .channel.space2= dyyp10yy| configure_json
+            .channel.space3= dy yp10yy | configure_json
+            .channel.boolean_t1=True| configure_json
+            .channel.boolean_t2=TRUE| configure_json
+            .channel.boolean_t3=true| configure_json
+            .channel.boolean_f1=False| configure_json
+            .channel.boolean_f2=FALSE| configure_json
+            .channel.boolean_f3=false| configure_json
+            .channel.string=TRUEFF| configure_json
+            .channel.string2=jinwoo|configure_json
+            .iconrpc.conf.block."0.3"=1|iconrpcserver_json
+            .iconrpc.conf.block."0.1"=10000|iconrpcserver_json
+            .iconservice.conf=10|iconservice_json
+            .LOOPCHAIN_DEFAULT_CHANNEL=jinwoo | configure_json
+            .PEER_NAME=prep_name | configure_json
+            .log.rotate.backupCount=12|iconservice_json
+            .log.rotate.maxBytes=200000000|iconservice_json
+            .log.rotate.backupCount=12|iconrpcserver_json
+            .log.rotate.maxBytes=200000000|iconrpcserver_json
+
+         configure_json: "/prep_peer/conf/configure.json"
+         iconservice_json: "/prep_peer/conf/iconservice.json"
+         iconrpcserver_json: "/prep_peer/conf/iconrpcserver.json"
+
+      volumes:
+         - ./src:/src
+         - ./cert:/cert # Automatically generate cert key files here
+
+

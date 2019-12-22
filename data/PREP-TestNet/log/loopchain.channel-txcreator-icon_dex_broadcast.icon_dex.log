@@ -1,0 +1,52 @@
+1203 09:51:13,537 603 140497625241344 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 09:51:13,538 603 140497625241344 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 09:51:13,539 603 140497625241344 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 09:51:13,539 603 140497625241344 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 09:54:45,934 603 140497625241344 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 09:57:40,272 598 140077670135552 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 09:57:40,273 598 140077670135552 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 09:57:40,274 598 140077670135552 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 09:57:40,277 598 140077670135552 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 10:08:22,906 598 140077670135552 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 10:08:22,948 598 140077670135552 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+1203 11:34:23,556 7814 139708959246080 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:34:23,557 7814 139708959246080 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:34:23,558 7814 139708959246080 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:34:23,560 7814 139708959246080 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:37:44,206 7814 139708959246080 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:38:22,876 596 140589018412800 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:38:22,877 596 140589018412800 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:38:22,878 596 140589018412800 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:38:22,879 596 140589018412800 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:39:29,033 596 140589018412800 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:40:05,233 602 139808074262272 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:40:05,234 602 139808074262272 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:40:05,234 602 139808074262272 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:40:05,236 602 139808074262272 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:41:54,762 602 139808074262272 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:41:54,802 602 139808074262272 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+1203 11:41:54,849 602 139808074262272 hxc61616 icon_dex INFO broadcast_scheduler.py(510) BroadcastScheduler process(icon_dex) end
+1203 11:42:27,838 591 139875262203648 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:42:27,840 591 139875262203648 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:42:27,841 591 139875262203648 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:42:27,842 591 139875262203648 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:42:52,425 591 139875262203648 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:43:54,380 603 139694598645504 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:43:54,381 603 139694598645504 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:43:54,383 603 139694598645504 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:43:54,384 603 139694598645504 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:46:09,454 603 139694598645504 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:46:09,469 603 139694598645504 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+1203 11:46:09,477 603 139694598645504 hxc61616 icon_dex INFO broadcast_scheduler.py(510) BroadcastScheduler process(icon_dex) end
+1203 11:51:59,681 1699 140295604668160 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:51:59,683 1699 140295604668160 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:51:59,685 1699 140295604668160 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:51:59,687 1699 140295604668160 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 11:55:58,844 1699 140295604668160 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 11:58:49,570 590 140223375271680 hxc61616 icon_dex INFO broadcast_scheduler.py(481) BroadcastScheduler process(icon_dex) start
+1203 11:58:49,571 590 140223375271680 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+1203 11:58:49,571 590 140223375271680 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+1203 11:58:49,573 590 140223375271680 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+1203 12:02:32,051 590 140223375271680 hxc61616 icon_dex ERROR broadcast_scheduler.py(494) BroadcastScheduler process(icon_dex) has been received signal(2)
+1203 12:02:32,089 590 140223375271680 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+1203 12:02:32,091 590 140223375271680 hxc61616 icon_dex INFO broadcast_scheduler.py(510) BroadcastScheduler process(icon_dex) end

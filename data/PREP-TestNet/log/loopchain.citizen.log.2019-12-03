@@ -1,0 +1,490 @@
+1203 09:51:10,395 480 139953571505920 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 09:51:10,401 480 139953571505920 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 09:51:10,401 480 139953571505920 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 09:51:10,403 480 139953571505920 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.08010600000125123)
+1203 09:51:10,441 480 139953571505920 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 09:51:10,457 480 139953571505920 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 09:51:10,481 480 139953571505920 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 09:51:10,481 480 139953571505920 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 09:51:10,482 480 139953571505920 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 09:51:11,697 480 139953571505920 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 09:51:11,876 480 139953571505920 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:51:12,089 480 139953571505920 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:51:12,092 480 139953571505920 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:51:40,027 480 139953277687552 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:52:10,417 480 139953277687552 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:52:23,428 480 139952918624000 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:52:23,804 480 139953277687552 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:52:40,756 480 139952918624000 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:08,758 480 139952901838592 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:09,117 480 139952893445888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:11,097 480 139952918624000 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:41,411 480 139952885053184 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:54,168 480 139952910231296 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:53:54,593 480 139952893445888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:54:11,738 480 139952868267776 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:54:39,579 480 139952901838592 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:54:39,939 480 139952876660480 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:54:42,116 480 139953277687552 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:54:45,988 480 139953571505920 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 09:57:36,334 478 139888465344256 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 09:57:36,352 478 139888465344256 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 09:57:36,356 478 139888465344256 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 09:57:36,364 478 139888465344256 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.1409940999947139)
+1203 09:57:36,466 478 139888465344256 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 09:57:36,507 478 139888465344256 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 09:57:36,533 478 139888465344256 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 09:57:36,534 478 139888465344256 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 09:57:36,535 478 139888465344256 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 09:57:37,992 478 139888465344256 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 09:57:38,225 478 139888465344256 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:57:38,395 478 139888465344256 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:57:38,404 478 139888465344256 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 09:57:39,204 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:58:09,670 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:58:40,010 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:58:49,140 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:58:49,499 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:59:10,384 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:59:34,479 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:59:34,831 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 09:59:40,780 478 139887781062400 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:00:11,117 478 139887789455104 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:00:19,818 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:00:20,100 478 139887286155008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:00:41,455 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:05,099 478 139887772669696 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:05,432 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:11,759 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:42,055 478 139887781062400 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:50,420 478 139887789455104 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:01:50,746 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:02:12,364 478 139887286155008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:02:35,711 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:02:35,995 478 139887772669696 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:02:42,688 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:03:12,956 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:03:20,983 478 139887781062400 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:03:21,297 478 139887789455104 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:03:43,274 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:06,268 478 139887286155008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:06,582 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:13,587 478 139887772669696 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:43,887 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:51,575 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:04:51,880 478 139887781062400 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:05:14,191 478 139887789455104 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:05:36,844 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:05:37,145 478 139887286155008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:05:44,495 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:06:14,789 478 139887772669696 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:06:22,138 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:06:22,467 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:06:45,102 478 139887781062400 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:07,417 478 139887789455104 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:07,740 478 139887806240512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:15,426 478 139887286155008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:45,752 478 139887797847808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:52,762 478 139887772669696 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:07:53,105 478 139888171525888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:08:16,099 478 139887814633216 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 10:08:22,944 478 139888465344256 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:34:20,266 7574 139943190898432 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:34:20,273 7574 139943190898432 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:34:20,274 7574 139943190898432 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:34:20,277 7574 139943190898432 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.07795629999600351)
+1203 11:34:20,363 7574 139943190898432 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:34:20,400 7574 139943190898432 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:34:20,452 7574 139943190898432 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:34:20,453 7574 139943190898432 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:34:20,454 7574 139943190898432 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:34:21,674 7574 139943190898432 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:34:21,871 7574 139943190898432 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:34:22,123 7574 139943190898432 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:34:22,130 7574 139943190898432 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:34:37,207 7574 139942897080064 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:35:07,614 7574 139942897080064 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:35:33,304 7574 139942880032512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:35:33,734 7574 139942871639808 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:35:37,946 7574 139942880032512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:36:08,257 7574 139942897080064 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:36:18,864 7574 139942862984960 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:36:19,228 7574 139942880032512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:36:38,591 7574 139942239921920 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:37:04,265 7574 139942248314624 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:37:04,651 7574 139942862984960 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:37:08,921 7574 139942223136512 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:37:39,287 7574 139942897080064 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:37:44,237 7574 139943190898432 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:38:19,089 476 140516935010048 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:38:19,100 476 140516935010048 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:38:19,101 476 140516935010048 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:38:19,102 476 140516935010048 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.07861589999811258)
+1203 11:38:19,183 476 140516935010048 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:38:19,229 476 140516935010048 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:38:19,284 476 140516935010048 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:38:19,286 476 140516935010048 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:38:19,288 476 140516935010048 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:38:20,760 476 140516935010048 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:38:21,017 476 140516935010048 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:38:21,276 476 140516935010048 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:38:21,281 476 140516935010048 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:38:21,460 476 140516431755008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:38:51,905 476 140516431755008 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:39:22,236 476 140516414969600 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:39:29,071 476 140516935010048 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:40:01,633 478 140088852780800 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:40:01,638 478 140088852780800 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:40:01,639 478 140088852780800 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:40:01,641 478 140088852780800 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.13454019999335287)
+1203 11:40:01,674 478 140088852780800 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:40:01,696 478 140088852780800 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:40:01,725 478 140088852780800 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:40:01,726 478 140088852780800 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:40:01,728 478 140088852780800 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:40:03,019 478 140088852780800 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:40:03,291 478 140088852780800 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:40:03,645 478 140088852780800 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:40:03,649 478 140088852780800 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:40:04,022 478 140088558962432 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:40:34,434 478 140088558962432 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:41:04,745 478 140088193308416 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:41:14,948 478 140088558962432 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:41:15,274 478 140088193308416 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:41:35,099 478 140088184915712 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:41:54,813 478 140088852780800 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:42:24,573 478 140564139841280 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:42:24,578 478 140564139841280 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:42:24,579 478 140564139841280 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:42:24,581 478 140564139841280 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.07349330000579357)
+1203 11:42:24,736 478 140564139841280 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:42:24,799 478 140564139841280 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:42:24,854 478 140564139841280 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:42:24,855 478 140564139841280 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:42:24,856 478 140564139841280 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:42:26,045 478 140564139841280 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:42:26,320 478 140564139841280 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:42:26,576 478 140564139841280 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:42:26,584 478 140564139841280 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:42:28,105 478 140563846022912 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:42:52,453 478 140564139841280 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:43:50,675 480 140557133223680 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:43:50,680 480 140557133223680 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:43:50,681 480 140557133223680 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:43:50,683 480 140557133223680 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.06286830000317423)
+1203 11:43:50,722 480 140557133223680 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:43:50,743 480 140557133223680 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:43:50,775 480 140557133223680 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:43:50,776 480 140557133223680 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:43:50,777 480 140557133223680 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:43:52,067 480 140557133223680 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:43:52,197 480 140556629964544 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:44:22,675 480 140556629964544 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:44:53,005 480 140556613179136 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:03,613 480 140556604786432 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:03,984 480 140556613179136 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:23,315 480 140556596393728 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:48,973 480 140556629964544 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:49,274 480 140556613179136 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:45:53,648 480 140556579608320 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:46:09,546 480 140557133223680 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:51:55,867 1452 140229609944832 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:51:55,874 1452 140229609944832 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:51:55,875 1452 140229609944832 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:51:55,878 1452 140229609944832 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.09431239999685204)
+1203 11:51:55,983 1452 140229609944832 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:51:56,036 1452 140229609944832 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:51:56,097 1452 140229609944832 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:51:56,100 1452 140229609944832 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:51:56,101 1452 140229609944832 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:51:57,529 1452 140229609944832 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:51:57,923 1452 140229609944832 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:51:59,136 1452 140229609944832 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:51:59,140 1452 140229609944832 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:52:27,675 1452 140229316126464 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:52:58,068 1452 140229316126464 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:09,224 1452 140229299078912 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:10,666 1452 140229316126464 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:28,409 1452 140229299078912 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:55,660 1452 140229290686208 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:56,201 1452 140228668946176 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:53:58,704 1452 140228643768064 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:54:29,028 1452 140228660553472 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:54:41,680 1452 140229290686208 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:54:42,003 1452 140228652160768 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:54:59,354 1452 140229299078912 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:55:26,996 1452 140229316126464 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:55:27,418 1452 140229282031360 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:55:29,669 1452 140228668946176 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:55:58,890 1452 140229609944832 hxc61616  INFO peer_service.py(231) Peer Service Ended.
+1203 11:58:45,871 480 140059021526784 hxc61616  INFO peer_service.py(138) run peer_id : hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:58:45,898 480 140059021526784 hxc61616  INFO grpc_helper.py(76) Server now listen: [::]:7100, secure level : SSLAuthType.none
+1203 11:58:45,899 480 140059021526784 hxc61616  DEBUG grpc_helper.py(41) outer target host = [::]:7100
+1203 11:58:45,901 480 140059021526784 hxc61616  INFO peer_service.py(203) Start Peer Service at port: 7100 start duration(0.08975420000206213)
+1203 11:58:45,937 480 140059021526784 hxc61616  DEBUG stub_collection.py(58) ChannelTasks : icon_dex, Queue : Channel.icon_dex.7100
+1203 11:58:45,969 480 140059021526784 hxc61616  DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+1203 11:58:45,998 480 140059021526784 hxc61616  DEBUG common_subprocess.py(25) common_subprocess:CommonSubprocess init
+1203 11:58:45,999 480 140059021526784 hxc61616  DEBUG common_subprocess.py(44) common_subprocess:CommonSubprocess start
+1203 11:58:46,000 480 140059021526784 hxc61616  DEBUG common_subprocess.py(46) common_subprocess:CommonSubprocess run process
+1203 11:58:47,308 480 140059021526784 hxc61616  INFO peer_service.py(215) peer_service: init complete peer: hxc61616e0cf039b1ecb6b80f0bac788acce8ee2f4
+1203 11:58:47,734 480 140059021526784 hxc61616  DEBUG peer_inner_service.py(79) peer_inner_service:not init channel(icon_dex)
+1203 11:58:48,782 480 140058727708416 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:59:19,272 480 140058727708416 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:59:49,833 480 140058710660864 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:59:59,109 480 140058727708416 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 11:59:59,470 480 140058710660864 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:00:20,285 480 140058693613312 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:00:50,636 480 140058702268160 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:00:59,186 480 140058710660864 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:00:59,842 480 140058069821184 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:01:29,079 480 140058078213888 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:01:45,327 480 140058702268160 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:01:51,294 480 140058053035776 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:02:03,097 480 140058693613312 hxc61616  DEBUG peer_outer_service.py(209) Peer GetStatus : request: ""
+channel: "icon_dex"
+
+1203 12:02:32,086 480 140059021526784 hxc61616  INFO peer_service.py(231) Peer Service Ended.

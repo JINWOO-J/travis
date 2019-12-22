@@ -1,0 +1,71 @@
+1203 09:51:12,663 572 140598357493504 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 09:51:12,694 572 140598357493504 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 09:54:45,934 572 140598357493504 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 09:54:45,962 572 140598357493504 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 09:54:45,976 572 140598357493504 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7fdf98a34128>)
+1203 09:54:45,989 572 140598357493504 hxc61616 icon_dex INFO module_process.py(91) Terminate process=603:ModuleProcess(0x7fdf8c3f84a8)
+1203 09:54:46,032 572 140598107354880 hxc61616 icon_dex INFO module_process.py(74) Process(603:ModuleProcess(0x7fdf8c3f84a8)) is terminated
+1203 09:54:46,033 572 140598357493504 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 09:57:39,208 561 140540645705472 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 09:57:39,244 561 140540645705472 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 10:08:22,899 561 140540645705472 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 10:08:22,948 561 140540645705472 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 10:08:22,953 561 140540645705472 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7fd21c5c7278>)
+1203 10:08:22,955 561 140540645705472 hxc61616 icon_dex INFO module_process.py(91) Terminate process=598:ModuleProcess(0x7fd2257be588)
+1203 10:08:23,008 561 140540395566848 hxc61616 icon_dex INFO module_process.py(74) Process(598:ModuleProcess(0x7fd2257be588)) is terminated
+1203 10:08:23,012 561 140540645705472 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:34:22,724 7783 140290619049728 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:34:22,753 7783 140290619049728 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:37:44,211 7783 140290619049728 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:37:44,246 7783 140290619049728 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:37:44,248 7783 140290619049728 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7f97e59c62b0>)
+1203 11:37:44,249 7783 140290619049728 hxc61616 icon_dex INFO module_process.py(91) Terminate process=7814:ModuleProcess(0x7f97eebbe550)
+1203 11:37:44,337 7783 140290368911104 hxc61616 icon_dex INFO module_process.py(74) Process(7814:ModuleProcess(0x7f97eebbe550)) is terminated
+1203 11:37:44,340 7783 140290619049728 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:38:21,981 557 140220658079488 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:38:22,010 557 140220658079488 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:39:29,042 557 140220658079488 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:39:29,072 557 140220658079488 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:39:29,075 557 140220658079488 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7f87a9141278>)
+1203 11:39:29,080 557 140220658079488 hxc61616 icon_dex INFO module_process.py(91) Terminate process=596:ModuleProcess(0x7f879b9df198)
+1203 11:39:29,120 557 140220407940864 hxc61616 icon_dex INFO module_process.py(74) Process(596:ModuleProcess(0x7f879b9df198)) is terminated
+1203 11:39:29,126 557 140220658079488 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:40:04,394 562 139903715038976 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:40:04,417 562 139903715038976 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:41:54,772 562 139903715038976 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:41:54,855 562 139903715038976 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:41:54,859 562 139903715038976 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7f3dd055b278>)
+1203 11:41:54,860 562 139903715038976 hxc61616 icon_dex INFO module_process.py(91) Terminate process=602:ModuleProcess(0x7f3dd9753630)
+1203 11:41:54,868 562 139903464900352 hxc61616 icon_dex INFO module_process.py(74) Process(602:ModuleProcess(0x7f3dd9753630)) is terminated
+1203 11:41:54,870 562 139903715038976 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:42:27,042 561 139621922965248 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:42:27,074 561 139621922965248 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:42:52,424 561 139621922965248 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:42:52,455 561 139621922965248 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:42:52,458 561 139621922965248 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7efc3437f278>)
+1203 11:42:52,460 561 139621922965248 hxc61616 icon_dex INFO module_process.py(91) Terminate process=591:ModuleProcess(0x7efc348a0518)
+1203 11:42:52,540 561 139621672826624 hxc61616 icon_dex INFO module_process.py(74) Process(591:ModuleProcess(0x7efc348a0518)) is terminated
+1203 11:42:52,541 561 139621922965248 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:43:53,481 570 140541834868480 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:43:53,517 570 140541834868480 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:46:09,454 570 140541834868480 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:46:09,471 570 140541834868480 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:46:09,475 570 140541834868480 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7fd270b4f278>)
+1203 11:46:09,480 570 140541834868480 hxc61616 icon_dex INFO module_process.py(91) Terminate process=603:ModuleProcess(0x7fd2633ed128)
+1203 11:46:09,514 570 140541584729856 hxc61616 icon_dex INFO module_process.py(74) Process(603:ModuleProcess(0x7fd2633ed128)) is terminated
+1203 11:46:09,516 570 140541834868480 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:51:58,773 1643 140059476698880 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:51:58,809 1643 140059476698880 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 11:55:58,830 1643 140059476698880 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 11:55:58,879 1643 140059476698880 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGTERM: 15>,))
+1203 11:55:58,882 1643 140059476698880 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7f6221eb6278>)
+1203 11:55:58,883 1643 140059476698880 hxc61616 icon_dex INFO module_process.py(91) Terminate process=1699:ModuleProcess(0x7f62147531d0)
+1203 11:55:58,931 1643 140059226560256 hxc61616 icon_dex INFO module_process.py(74) Process(1699:ModuleProcess(0x7f62147531d0)) is terminated
+1203 11:55:58,933 1643 140059476698880 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped
+1203 11:58:48,382 560 140554762860288 hxc61616 icon_dex INFO channel_inner_service.py(178) Channel TX Creator start
+1203 11:58:48,409 560 140554762860288 hxc61616 icon_dex INFO channel_inner_service.py(201) ChannelTxCreatorInnerService: started
+1203 12:02:32,055 560 140554762860288 hxc61616 icon_dex ERROR channel_inner_service.py(193) Channel TX Creator has been received signal((<Signals.SIGINT: 2>,))
+1203 12:02:32,090 560 140554762860288 hxc61616 icon_dex INFO broadcast_scheduler.py(522) Terminate BroadcastScheduler process(<loopchain.baseservice.broadcast_scheduler._BroadcastSchedulerMp object at 0x7fd565cfbfd0>)
+1203 12:02:32,091 560 140554762860288 hxc61616 icon_dex INFO module_process.py(91) Terminate process=590:ModuleProcess(0x7fd5730884a8)
+1203 12:02:32,139 560 140554512721664 hxc61616 icon_dex INFO module_process.py(74) Process(590:ModuleProcess(0x7fd5730884a8)) is terminated
+1203 12:02:32,142 560 140554762860288 hxc61616 icon_dex INFO channel_inner_service.py(206) ChannelTxCreatorInnerService: stopped

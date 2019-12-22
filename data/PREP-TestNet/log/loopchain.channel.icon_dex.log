@@ -1,0 +1,150 @@
+2019-12-20 14:51:11,028 524 140309336708864  icon_dex INFO channel_service.py(64) ChannelService : icon_dex, Queue : Channel.icon_dex.7100
+2019-12-20 14:51:11,087 524 140309336708864 hxc61616 icon_dex DEBUG common_thread.py(28) common_thread:CommonThread init
+2019-12-20 14:51:11,089 524 140309336708864 hxc61616 icon_dex DEBUG selector_events.py(53) Using selector: EpollSelector
+2019-12-20 14:51:11,091 524 140309336708864 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+2019-12-20 14:51:11,093 524 140309088229120 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+2019-12-20 14:51:11,094 524 140309336708864 hxc61616 icon_dex DEBUG channel_service.py(295) __load_block_manager_each channel(icon_dex)
+2019-12-20 14:51:11,098 524 140309336708864 hxc61616 icon_dex INFO key_value_store.py(150) New KeyValueStore. store_type=plyvel, uri=file:///data/PREP-TestNet/.storage/db_172.17.0.2:7100_icon_dex
+2019-12-20 14:51:11,099 524 140309336708864 hxc61616 icon_dex DEBUG key_value_store.py(153) New KeyValueStorePlyvel.
+2019-12-20 14:51:11,234 524 140309336708864 hxc61616 icon_dex INFO channel_inner_service.py(422) Channel(icon_dex) TX Creator: initialized
+2019-12-20 14:51:11,263 524 140309336708864 hxc61616 icon_dex INFO channel_inner_service.py(429) Channel(icon_dex) TX Receiver: initialized
+2019-12-20 14:51:11,305 524 140309336708864 hxc61616 icon_dex DEBUG stub_collection.py(70) ChannelTxCreatorTasks : icon_dex, Queue : ChannelTxCreator.icon_dex.7100
+2019-12-20 14:51:11,333 524 140309336708864 hxc61616 icon_dex DEBUG stub_collection.py(83) ChannelTxReceiverTasks : icon_dex, Queue : ChannelTxReceiver.icon_dex.7100
+2019-12-20 14:51:11,334 524 140309336708864 hxc61616 icon_dex DEBUG common_thread.py(39) CommonThread start
+2019-12-20 14:51:11,343 524 140309336708864 hxc61616 icon_dex DEBUG core.py(246) Initiating transition from state InitComponents to state Consensus...
+2019-12-20 14:51:11,344 524 140309336708864 hxc61616 icon_dex DEBUG core.py(125) Exiting state InitComponents. Processing callbacks...
+2019-12-20 14:51:11,344 524 140309336708864 hxc61616 icon_dex INFO core.py(128) Exited state InitComponents
+2019-12-20 14:51:11,345 524 140309336708864 hxc61616 icon_dex DEBUG core.py(118) Entering state Consensus. Processing callbacks...
+2019-12-20 14:51:11,346 524 140309336708864 hxc61616 icon_dex DEBUG core.py(246) Initiating transition from state Consensus to state BlockHeightSync...
+2019-12-20 14:51:11,347 524 140309336708864 hxc61616 icon_dex DEBUG core.py(125) Exiting state Consensus. Processing callbacks...
+2019-12-20 14:51:11,348 524 140309336708864 hxc61616 icon_dex INFO core.py(128) Exited state Consensus
+2019-12-20 14:51:11,348 524 140309336708864 hxc61616 icon_dex DEBUG core.py(118) Entering state BlockHeightSync. Processing callbacks...
+2019-12-20 14:51:11,349 524 140309336708864 hxc61616 icon_dex DEBUG core.py(246) Initiating transition from state BlockHeightSync to state EvaluateNetwork...
+2019-12-20 14:51:11,350 524 140309336708864 hxc61616 icon_dex DEBUG core.py(125) Exiting state BlockHeightSync. Processing callbacks...
+2019-12-20 14:51:11,351 524 140309336708864 hxc61616 icon_dex INFO core.py(128) Exited state BlockHeightSync
+2019-12-20 14:51:11,352 524 140309336708864 hxc61616 icon_dex DEBUG core.py(118) Entering state EvaluateNetwork. Processing callbacks...
+2019-12-20 14:51:11,353 524 140309336708864 hxc61616 icon_dex INFO core.py(121) Entered state EvaluateNetwork
+2019-12-20 14:51:11,354 524 140309336708864 hxc61616 icon_dex DEBUG core.py(267) Executed callback '_do_evaluate_network' after transition.
+2019-12-20 14:51:11,355 524 140309336708864 hxc61616 icon_dex INFO core.py(121) Entered state BlockHeightSync
+2019-12-20 14:51:11,356 524 140309336708864 hxc61616 icon_dex INFO core.py(121) Entered state Consensus
+2019-12-20 14:51:11,357 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(128) channel_service: init complete channel: icon_dex, state(EvaluateNetwork)
+2019-12-20 14:51:11,560 524 140309336708864 hxc61616 icon_dex INFO rest_client.py(71) RestClient init target(http://fastpeer4.icon:9000)
+2019-12-20 14:51:11,561 524 140309336708864 hxc61616 icon_dex INFO channel_inner_service.py(432) properties {'relay_target': 'http://fastpeer4.icon:9000'}
+2019-12-20 14:51:11,565 524 140309336708864 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:11,579 524 140309336708864 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 974
+2019-12-20 14:51:11,582 524 140309336708864 hxc61616 icon_dex DEBUG peer_loader.py(66) reps by c-rep root hash: [{'address': 'hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0', 'p2pEndpoint': '20.20.4.90:7100'}, {'address': 'hx176b4bb390b8e6b6894f17507594a8a155696501', 'p2pEndpoint': '20.20.4.214:7100'}, {'address': 'hx6834efa18f6abe7d99de79e9bc9116f82e155620', 'p2pEndpoint': '20.20.1.212:7100'}, {'address': 'hxec916f43c60804e5265b5ef071ae06ee7d921a54', 'p2pEndpoint': '20.20.1.20:7100'}, {'address': 'hx757f33073436d71c671f0daaa570283e96af1650', 'p2pEndpoint': '20.20.2.153:7100'}, {'address': 'hxf67f90396bda331f84831ac5a1fc85301696c11f', 'p2pEndpoint': '20.20.5.6:7100'}, {'address': 'hx62101ec10da3e68c9947ddd30c9c9df30e2deacd', 'p2pEndpoint': '20.20.6.118:7100'}, {'address': 'hx2e3ad976ef8dddc579d5e24d23a130e975652240', 'p2pEndpoint': '20.20.1.193:7100'}, {'address': 'hx3e1227d9c46298325a7845d3d5198270bf6f70bc', 'p2pEndpoint': '20.20.2.53:7100'}, {'address': 'hxf5ef1588c533454e15d7aeb71247e74cfdc1170d', 'p2pEndpoint': '20.20.4.226:7100'}]
+2019-12-20 14:51:11,583 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0
+2019-12-20 14:51:11,584 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx176b4bb390b8e6b6894f17507594a8a155696501
+2019-12-20 14:51:11,585 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx6834efa18f6abe7d99de79e9bc9116f82e155620
+2019-12-20 14:51:11,586 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hxec916f43c60804e5265b5ef071ae06ee7d921a54
+2019-12-20 14:51:11,593 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx757f33073436d71c671f0daaa570283e96af1650
+2019-12-20 14:51:11,594 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hxf67f90396bda331f84831ac5a1fc85301696c11f
+2019-12-20 14:51:11,595 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx62101ec10da3e68c9947ddd30c9c9df30e2deacd
+2019-12-20 14:51:11,595 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx2e3ad976ef8dddc579d5e24d23a130e975652240
+2019-12-20 14:51:11,596 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hx3e1227d9c46298325a7845d3d5198270bf6f70bc
+2019-12-20 14:51:11,598 524 140309336708864 hxc61616 icon_dex DEBUG peer_manager.py(83) add peer id: hxf5ef1588c533454e15d7aeb71247e74cfdc1170d
+2019-12-20 14:51:11,602 524 140309336708864 hxc61616 icon_dex DEBUG channel_service.py(263) By peer manager, maintains the current node type(1)
+2019-12-20 14:51:11,604 524 140309336708864 hxc61616 icon_dex INFO channel_inner_service.py(432) properties {'node_type': 1}
+2019-12-20 14:51:11,606 524 140309336708864 hxc61616 icon_dex DEBUG blockchain.py(978) LAST BLOCK KEY : None
+2019-12-20 14:51:11,609 524 140309336708864 hxc61616 icon_dex DEBUG blockchain.py(992) ENGINE-303 init_blockchain: -1
+2019-12-20 14:51:11,610 524 140309336708864 hxc61616 icon_dex DEBUG core.py(246) Initiating transition from state EvaluateNetwork to state BlockSync...
+2019-12-20 14:51:11,624 524 140309336708864 hxc61616 icon_dex DEBUG core.py(125) Exiting state EvaluateNetwork. Processing callbacks...
+2019-12-20 14:51:11,624 524 140309336708864 hxc61616 icon_dex INFO core.py(128) Exited state EvaluateNetwork
+2019-12-20 14:51:11,625 524 140309336708864 hxc61616 icon_dex DEBUG core.py(118) Entering state BlockSync. Processing callbacks...
+2019-12-20 14:51:11,626 524 140309336708864 hxc61616 icon_dex INFO core.py(121) Entered state BlockSync
+2019-12-20 14:51:11,627 524 140309336708864 hxc61616 icon_dex DEBUG timer_service.py(237) stop_timer:There is no value by this key: TIMER_KEY_LEADER_COMPLAIN
+2019-12-20 14:51:11,633 524 140309336708864 hxc61616 icon_dex DEBUG core.py(267) Executed callback '_do_block_sync' after transition.
+2019-12-20 14:51:11,639 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:11,657 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "GET /api/v1/status/peer?channel=icon_dex HTTP/1.1" 200 788
+2019-12-20 14:51:11,659 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(651) in __block_height_sync max_height(323808), my_height(-1)
+2019-12-20 14:51:11,660 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:11,719 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(558) Block Height Sync Target : http://fastpeer4.icon:9000 / request height(0)
+2019-12-20 14:51:11,721 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:11,795 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/node/icon_dex HTTP/1.1" 200 1497
+2019-12-20 14:51:11,799 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:11,813 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 1022
+2019-12-20 14:51:11,859 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(571) try add block height: 0
+2019-12-20 14:51:11,861 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(490) __add_block_by_sync :: height(0) hash(Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964))
+2019-12-20 14:51:11,879 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:11,900 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(560) try add all tx in block to block db, block hash: 78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964
+2019-12-20 14:51:11,901 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(636) This block(Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964)) is trying to add without confirm_info.
+2019-12-20 14:51:11,902 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(539) call score commit icon_dex 0 78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964
+2019-12-20 14:51:11,902 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(547) Block Hash : Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964) -> Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964)
+2019-12-20 14:51:11,928 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(47) New Epoch Start height(1) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:11,930 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(99) Set Epoch leader height(1) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:11,931 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(76) new round 0, 0
+2019-12-20 14:51:11,932 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(778) Epoch height(1), leader (hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:11,933 524 140308377491200 hxc61616 icon_dex INFO blockchain.py(524) ADD BLOCK HEIGHT : 0 , HASH : 78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964 , CHANNEL : icon_dex
+2019-12-20 14:51:11,934 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(527) ADDED BLOCK HEADER : BlockHeader(hash=Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964), prev_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), height=0, timestamp=1576156746475806, peer_id=None, signature=None, next_leader=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), merkle_tree_root_hash=Hash32(0x7c3f44b5f2a54a7d5d6c5808fb1ab1203a5d66c90ca8721d290ff5108d79f6ad), commit_state=OrderedDict([('icon_dex', 'c796c6ca25c23d34344ec8c0fad7f852320b9733eebfd0359f7742f8b1074055')]))
+2019-12-20 14:51:11,944 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(558) Block Height Sync Target : http://fastpeer4.icon:9000 / request height(1)
+2019-12-20 14:51:11,946 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:11,968 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/node/icon_dex HTTP/1.1" 200 4070
+2019-12-20 14:51:11,975 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,006 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 1022
+2019-12-20 14:51:12,017 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(571) try add block height: 1
+2019-12-20 14:51:12,018 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(490) __add_block_by_sync :: height(1) hash(Hash32(0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372))
+2019-12-20 14:51:12,047 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:12,094 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(539) call score commit icon_dex 1 38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372
+2019-12-20 14:51:12,096 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(547) Block Hash : Hash32(0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372) -> Hash32(0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372)
+2019-12-20 14:51:12,115 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(47) New Epoch Start height(2) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,116 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(99) Set Epoch leader height(2) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,123 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(76) new round 0, 0
+2019-12-20 14:51:12,125 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(778) Epoch height(2), leader (hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,127 524 140308377491200 hxc61616 icon_dex INFO blockchain.py(524) ADD BLOCK HEIGHT : 1 , HASH : 38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372 , CHANNEL : icon_dex
+2019-12-20 14:51:12,128 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(527) ADDED BLOCK HEADER : BlockHeader(hash=Hash32(0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372), prev_hash=Hash32(0x78da91d6d22be0783da7cb33cad3aeedebed8133dc9f337f9837b18abf483964), height=1, timestamp=1576156748548888, peer_id=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), signature=Signature(S7ZnqoEE1oCXJkcPMcuKmx8JHTvUcobsH6d/j8KyaPw3CPfv+LasWs3yddwaVnD4s8PYlWC/XFYr0kANBtC6egE=), next_leader=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), logs_bloom=BloomFilter(0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), transactions_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), state_hash=Hash32(0xa7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a), receipts_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), reps_hash=Hash32(0xe4bd136b3d42c765a284b8948859fff45f58045a24e42bb02663b54a9c226550), next_reps_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), leader_votes_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), prev_votes_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000))
+2019-12-20 14:51:12,131 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(558) Block Height Sync Target : http://fastpeer4.icon:9000 / request height(2)
+2019-12-20 14:51:12,133 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,152 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/node/icon_dex HTTP/1.1" 200 6582
+2019-12-20 14:51:12,159 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,187 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 1022
+2019-12-20 14:51:12,191 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(571) try add block height: 2
+2019-12-20 14:51:12,192 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(490) __add_block_by_sync :: height(2) hash(Hash32(0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e))
+2019-12-20 14:51:12,207 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:12,233 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(539) call score commit icon_dex 2 0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e
+2019-12-20 14:51:12,234 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(547) Block Hash : Hash32(0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e) -> Hash32(0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e)
+2019-12-20 14:51:12,250 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(47) New Epoch Start height(3) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,251 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(99) Set Epoch leader height(3) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,263 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(76) new round 0, 0
+2019-12-20 14:51:12,271 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(778) Epoch height(3), leader (hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,272 524 140308377491200 hxc61616 icon_dex INFO blockchain.py(524) ADD BLOCK HEIGHT : 2 , HASH : 0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e , CHANNEL : icon_dex
+2019-12-20 14:51:12,272 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(527) ADDED BLOCK HEADER : BlockHeader(hash=Hash32(0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e), prev_hash=Hash32(0x38ae7e0cf24513dc4b8ac26896b83c43e92b7cacdb91991eca8e707acc4b8372), height=2, timestamp=1576156790908303, peer_id=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), signature=Signature(Mdeg6/3qvL3ofJ8n4PeBcCAFokOQ/y1/RtLjF7/OIqI25SU9Nk8wwI2mH4A1+/AvlmDRBW2jiUuJTUORtw3liQE=), next_leader=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), logs_bloom=BloomFilter(0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), transactions_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), state_hash=Hash32(0xa7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a), receipts_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), reps_hash=Hash32(0xe4bd136b3d42c765a284b8948859fff45f58045a24e42bb02663b54a9c226550), next_reps_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), leader_votes_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), prev_votes_hash=Hash32(0x165414671b1e0811579b73d7f161e1eb8a20d9fe83f0f14ac35c41678d9c5b6d))
+2019-12-20 14:51:12,273 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(558) Block Height Sync Target : http://fastpeer4.icon:9000 / request height(3)
+2019-12-20 14:51:12,276 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,449 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/node/icon_dex HTTP/1.1" 200 6886
+2019-12-20 14:51:12,457 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,491 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 1022
+2019-12-20 14:51:12,497 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(571) try add block height: 3
+2019-12-20 14:51:12,499 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(490) __add_block_by_sync :: height(3) hash(Hash32(0x814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29))
+2019-12-20 14:51:12,519 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:12,561 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(539) call score commit icon_dex 3 814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29
+2019-12-20 14:51:12,563 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(547) Block Hash : Hash32(0x814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29) -> Hash32(0x814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29)
+2019-12-20 14:51:12,579 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(47) New Epoch Start height(4) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,583 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(99) Set Epoch leader height(4) leader_id(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,584 524 140308377491200 hxc61616 icon_dex DEBUG epoch.py(76) new round 0, 0
+2019-12-20 14:51:12,585 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(778) Epoch height(4), leader (hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0)
+2019-12-20 14:51:12,586 524 140308377491200 hxc61616 icon_dex INFO blockchain.py(524) ADD BLOCK HEIGHT : 3 , HASH : 814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29 , CHANNEL : icon_dex
+2019-12-20 14:51:12,587 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(527) ADDED BLOCK HEADER : BlockHeader(hash=Hash32(0x814fcaac97a9b87783b12bdba7af9ffb83a843a468749ab512bbd51b80b10e29), prev_hash=Hash32(0x0bfe1851f71afb2cc05f3562376a075b2a13f46415ae93825d97b10c39bc126e), height=3, timestamp=1576156791125233, peer_id=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), signature=Signature(BVFpoxQSdMMd6PdQCMSixmD14Z4eI2iv/nph49gbZDNfA9/bzpepi3j0Dl+URk6tYIBXpHVdwUbxw4bMLXmETQE=), next_leader=ExternalAddress(hxd78a4346e352423f7bbdeb8242a852b2d2dcaee0), logs_bloom=BloomFilter(0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), transactions_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), state_hash=Hash32(0xa7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a), receipts_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), reps_hash=Hash32(0xe4bd136b3d42c765a284b8948859fff45f58045a24e42bb02663b54a9c226550), next_reps_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), leader_votes_hash=Hash32(0x0000000000000000000000000000000000000000000000000000000000000000), prev_votes_hash=Hash32(0x87269278af1e949064e7f38b8060f6143533335ce8bfde3fa5394e7054bcd45f))
+2019-12-20 14:51:12,589 524 140308377491200 hxc61616 icon_dex INFO block_manager.py(558) Block Height Sync Target : http://fastpeer4.icon:9000 / request height(4)
+2019-12-20 14:51:12,594 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,608 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/node/icon_dex HTTP/1.1" 200 6887
+2019-12-20 14:51:12,613 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(205) Starting new HTTP connection (1): fastpeer4.icon:9000
+2019-12-20 14:51:12,624 524 140308377491200 hxc61616 icon_dex DEBUG connectionpool.py(393) http://fastpeer4.icon:9000 "POST /api/v3/icon_dex HTTP/1.1" 200 1023
+2019-12-20 14:51:12,632 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(571) try add block height: 4
+2019-12-20 14:51:12,634 524 140308377491200 hxc61616 icon_dex DEBUG block_manager.py(490) __add_block_by_sync :: height(4) hash(Hash32(0xe0525a0a176bed848a44351089d71bd5cef3d73b1d6c6895517d45ffde2ca5dc))
+2019-12-20 14:51:12,658 524 140308377491200 hxc61616 icon_dex DEBUG blockchain.py(648) prevent_block_mismatch...
+2019-12-20 14:51:12,719 524 140309336708864 hxc61616 icon_dex INFO module_process.py(91) Terminate process=561:_ChannelTxCreatorProcess(0x7f9c400eb630)
+2019-12-20 14:51:12,772 524 140308993406720 hxc61616 icon_dex INFO module_process.py(74) Process(561:_ChannelTxCreatorProcess(0x7f9c400eb630)) is terminated
+2019-12-20 14:51:12,775 524 140309336708864 hxc61616 icon_dex INFO module_process.py(91) Terminate process=564:_ChannelTxReceiverProcess(0x7f9c40113e48)
+2019-12-20 14:51:12,852 524 140308976621312 hxc61616 icon_dex INFO module_process.py(74) Process(564:_ChannelTxReceiverProcess(0x7f9c40113e48)) is terminated
+2019-12-20 14:51:12,873 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(539) call score commit icon_dex 4 e0525a0a176bed848a44351089d71bd5cef3d73b1d6c6895517d45ffde2ca5dc
+2019-12-20 14:51:12,874 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(150) Cleanup ChannelInnerService.
+2019-12-20 14:51:12,875 524 140308377491200 hxc61616 icon_dex DEBUG channel_service.py(547) Block Hash : Hash32(0xe0525a0a176bed848a44351089d71bd5cef3d73b1d6c6895517d45ffde2ca5dc) -> Hash32(0xe0525a0a176bed848a44351089d71bd5cef3d73b1d6c6895517d45ffde2ca5dc)
+2019-12-20 14:51:12,876 524 140309336708864 hxc61616 icon_dex INFO channel_inner_service.py(976) channel_inner_service:stop message(Close)
+2019-12-20 14:51:12,880 524 140308377491200 hxc61616 icon_dex WARNING channel.py(1222) Basic.Return received from server (<Basic.Return(['exchange=', 'reply_code=312', 'reply_text=NO_ROUTE', 'routing_key=IconScore.icon_dex.7100'])>, <BasicProperties(['correlation_id=140309066484088', 'delivery_mode=1', "headers={'From': 'amq.gen-zXb0nA1oIyhYyIN7hqfpNA', 'FuncName': 'IconScoreInnerTask.write_precommit_state'}", 'priority=128', 'reply_to=amq.gen-zXb0nA1oIyhYyIN7hqfpNA', 'timestamp=1576821072', 'type=call'])>)
+2019-12-20 14:51:12,880 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(150) Cleanup ChannelInnerService.
+2019-12-20 14:51:12,884 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(155) Cleanup Channel Resources.
+2019-12-20 14:51:12,888 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(160) Cleanup BlockManager.
+2019-12-20 14:51:12,903 524 140309336708864 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+2019-12-20 14:51:12,904 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(172) Cleanup BroadcastScheduler.
+2019-12-20 14:51:12,905 524 140309336708864 hxc61616 icon_dex DEBUG common_thread.py(60) common_thread:CommonThread wait thread...
+2019-12-20 14:51:12,906 524 140309336708864 hxc61616 icon_dex INFO channel_service.py(177) Cleanup TimerService.

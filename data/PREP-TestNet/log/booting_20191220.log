@@ -1,0 +1,238 @@
+[2019-12-20 14:50:57.819] Your IP: 172.17.0.2 
+[2019-12-20 14:50:57.830] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 14:50:57.840] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 14:50:57.852] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 14:50:57.862] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 14:50:57.872] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 14:50:57.882] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 14:50:57.891] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 14:50:57.898] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 14:50:58.480] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 14:50:58.491] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 14:50:59.468] UnRegistered P-Rep Network  
+[2019-12-20 14:51:00.397] == [OK] Write json file -> /prep_peer/conf/configure.json, 1.2 KB
+Alive peer_list=['20.20.1.212:9000', '20.20.2.153:9000', '20.20.4.214:9000', '20.20.4.90:9000', '20.20.1.20:9000'], fastpeer_domains=['http://20.20.3.26:8000', 'fastpeer0.icon:9000', 'fastpeer1.icon:9000', 'fastpeer2.icon:9000', 'fastpeer3.icon:9000', 'fastpeer4.icon:9000'] 
+[2019-12-20 14:51:00.407] CHANNEL_MANAGE_DATA not found - /prep_peer/conf/channel_manange_data.json 
+[2019-12-20 14:51:00.510] Add USER_DEFINED_ENV 
+[2019-12-20 14:51:00.583] [0] [/prep_peer/conf/configure.json] position=channel.intconf."0.3", value=10, type=int
+[92m[OK] Write json file -> /prep_peer/conf/configure.json, 1.7 KB[0m 
+[2019-12-20 14:51:06.679] Network: PREP-TestNet / RUN_MODE: '' / LOG_OUTPUT_TYPE: file|console 
+[2019-12-20 14:51:06.711] [OK] CHECK=0, Run loop-peer and loop-channel start -> '' 
+[2019-12-20 14:51:06.766] [OK] CHECK=0, Run iconservice start! 
+[2019-12-20 14:51:06.804] [OK] CHECK=0, Run iconrpcserver start! 
+[2019-12-20 15:04:03.230] Your IP: 172.17.0.2 
+[2019-12-20 15:04:03.244] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:04:03.254] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 15:04:03.267] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 15:04:03.277] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 15:04:03.289] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 15:04:03.300] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 15:04:03.310] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 15:04:03.320] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:04:03.761] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:04:03.777] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:04:04.352] [ERROR] [FAIL] CHECK=1, Peer ID: Traceback (most recent call last):
+  File "/src/getPeerID.py", line 33, in from_prikey_file
+    default_backend())
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/primitives/serialization.py", line 32, in load_der_private_key
+    return backend.load_der_private_key(data, password)
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1069, in load_der_private_key
+    password,
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1233, in _load_key
+    self._handle_key_loading_error()
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1291, in _handle_key_loading_error
+    raise ValueError("Could not deserialize key data.")
+ValueError: Could not deserialize key data.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/getPeerID.py", line 64, in <module>
+    print(from_prikey_file(priv_key, password))
+  File "/src/getPeerID.py", line 40, in from_prikey_file
+    raise ValueError("Invalid Password or Certificate load Failure)")
+ValueError: Invalid Password or Certificate load Failure) 
+[2019-12-20 15:04:04.362] Stopped script 
+[2019-12-20 15:05:19.043] Your IP: 172.17.0.2 
+[2019-12-20 15:05:19.055] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:05:19.067] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 15:05:19.078] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 15:05:19.090] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 15:05:19.101] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 15:05:19.113] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 15:05:19.127] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 15:05:19.140] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:05:19.612] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:05:19.628] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:05:20.252] [ERROR] [FAIL] CHECK=1, Peer ID: Traceback (most recent call last):
+  File "/src/getPeerID.py", line 33, in from_prikey_file
+    default_backend())
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/primitives/serialization.py", line 32, in load_der_private_key
+    return backend.load_der_private_key(data, password)
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1069, in load_der_private_key
+    password,
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1233, in _load_key
+    self._handle_key_loading_error()
+  File "/usr/local/lib/python3.7/site-packages/cryptography/hazmat/backends/openssl/backend.py", line 1291, in _handle_key_loading_error
+    raise ValueError("Could not deserialize key data.")
+ValueError: Could not deserialize key data.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/getPeerID.py", line 64, in <module>
+    print(from_prikey_file(priv_key, password))
+  File "/src/getPeerID.py", line 40, in from_prikey_file
+    raise ValueError("Invalid Password or Certificate load Failure)")
+ValueError: Invalid Password or Certificate load Failure) 
+[2019-12-20 15:05:20.272] Stopped script 
+[2019-12-20 15:09:54.501] Your IP: 172.17.0.2 
+[2019-12-20 15:09:54.512] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:09:54.522] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 15:09:54.534] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 15:09:54.543] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 15:09:54.553] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 15:09:54.561] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 15:09:54.570] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 15:09:54.580] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:09:55.076] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:09:55.089] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:09:55.098] [ERROR] Key file not found - /prep_peer/cert/aaa.pem , aaa.pem 
+[2019-12-20 16:35:54.364] Your IP: 172.17.0.2 
+[2019-12-20 16:35:54.377] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 16:35:54.386] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 16:35:54.396] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 16:35:54.406] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 16:35:54.416] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 16:35:54.426] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 16:35:54.436] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 16:35:54.444] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 16:35:54.935] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 16:35:54.945] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 16:35:54.955] [ERROR] Key file not found - sdsds , YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 16:38:35.955] Your IP: 172.17.0.2 
+[2019-12-20 16:38:35.962] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 16:38:35.971] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 16:38:35.979] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 16:38:35.989] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 16:38:35.999] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 16:38:36.007] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 16:38:36.014] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 16:38:36.023] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 16:38:36.498] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 16:38:36.506] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 16:38:36.514] [ERROR] Key file not found - PRIVATE_PATH=sdsds , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 16:38:36.990] [ERROR] [FAIL] CHECK=1, Peer ID: File not found - sdsds 
+[2019-12-20 16:38:36.995] Stopped script 
+[2019-12-20 16:38:49.339] Your IP: 172.17.0.2 
+[2019-12-20 16:38:49.347] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 16:38:49.356] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 16:38:49.364] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 16:38:49.372] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 16:38:49.382] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 16:38:49.390] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 16:38:49.399] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 16:38:49.407] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 16:38:49.872] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 16:38:49.881] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 16:38:49.891] [ERROR] Key file not found - PRIVATE_PATH=sdsds , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:34:25.633] Your IP: 172.17.0.2 
+[2019-12-20 18:34:25.647] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 18:34:25.658] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 18:34:25.671] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 18:34:25.686] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 18:34:25.697] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 18:34:25.707] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 18:34:25.716] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 18:34:25.725] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 18:34:26.340] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 18:34:26.352] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 18:34:26.367] [ERROR] Key file not found - PRIVATE_PATH=/prep_peer/cert/YOUR_KEYSTORE_FILENAME.der , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:34:26.919] [ERROR] [FAIL] CHECK=1, Peer ID: Certificate file not found -> /prep_peer/cert/YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:34:26.925] Stopped script 
+[2019-12-20 18:35:52.835] Your IP: 172.17.0.2 
+[2019-12-20 18:35:52.843] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 18:35:52.852] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 18:35:52.861] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 18:35:52.871] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 18:35:52.881] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 18:35:52.890] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 18:35:52.898] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 18:35:52.906] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 18:35:53.377] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 18:35:53.385] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 18:35:53.394] [ERROR] Key file not found - PRIVATE_PATH=/prep_peer/cert/YOUR_KEYSTORE_FILENAME.der , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:35:53.917] [ERROR] [FAIL] CHECK=1, Peer ID: Certificate file not found -> /prep_peer/cert/YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:35:53.923] Stopped script 
+[2019-12-20 18:36:19.847] Your IP: 172.17.0.2 
+[2019-12-20 18:36:19.855] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 18:36:19.864] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 18:36:19.872] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 18:36:19.881] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 18:36:19.890] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 18:36:19.899] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 18:36:19.908] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 18:36:19.917] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 18:36:20.394] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 18:36:20.403] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 18:36:20.413] [ERROR] Key file not found - PRIVATE_PATH=/prep_peer/cert/YOUR_KEYSTORE_FILENAME.der , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:36:20.931] [ERROR] [FAIL] CHECK=1, Peer ID: Certificate file not found -> /prep_peer/cert/YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:36:20.937] Stopped script 
+[2019-12-20 18:36:48.310] Your IP: 172.17.0.2 
+[2019-12-20 18:36:48.322] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 18:36:48.331] DEFAULT_PATH=/data/PREP-TestNet in Docker Container 
+[2019-12-20 18:36:48.341] DEFAULT_LOG_PATH=/data/PREP-TestNet/log 
+[2019-12-20 18:36:48.350] DEFAULT_STORAGE_PATH=/data/PREP-TestNet/.storage 
+[2019-12-20 18:36:48.361] scoreRootPath=/data/PREP-TestNet/.score_data/score 
+[2019-12-20 18:36:48.370] stateDbRootPath=/data/PREP-TestNet/.score_data/db 
+[2019-12-20 18:36:48.380] GENESIS_DATA_PATH=/prep_peer/conf/genesis.json 
+[2019-12-20 18:36:48.389] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 18:36:48.864] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 18:36:48.875] NETWORK_ENV=PREP-TestNet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 18:36:48.886] [ERROR] Key file not found - PRIVATE_PATH=/prep_peer/cert/YOUR_KEYSTORE_FILENAME.der , PRIVATE_KEY_FILENAME=YOUR_KEYSTORE_FILENAME.der 
+[2019-12-20 18:36:48.906] Auto generataion cert key 
+[2019-12-20 18:36:48.928] Generate key file /prep_peer/cert/YOUR_KEYSTORE_FILENAME.der 

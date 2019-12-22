@@ -1,0 +1,74 @@
+[2019-12-20 15:10:04.539] Your IP: 172.17.0.2 
+[2019-12-20 15:10:04.549] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:10:04.558] DEFAULT_PATH=/data/mainnet in Docker Container 
+[2019-12-20 15:10:04.568] DEFAULT_LOG_PATH=/data/mainnet/log 
+[2019-12-20 15:10:04.575] DEFAULT_STORAGE_PATH=/data/mainnet/.storage 
+[2019-12-20 15:10:04.586] scoreRootPath=/data/mainnet/.score_data/score 
+[2019-12-20 15:10:04.595] stateDbRootPath=/data/mainnet/.score_data/db 
+[2019-12-20 15:10:04.604] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:10:05.051] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:10:05.063] NETWORK_ENV=mainnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:11:25.809] Your IP: 172.17.0.2 
+[2019-12-20 15:11:25.819] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:11:25.829] DEFAULT_PATH=/data/mainnet in Docker Container 
+[2019-12-20 15:11:25.841] DEFAULT_LOG_PATH=/data/mainnet/log 
+[2019-12-20 15:11:25.852] DEFAULT_STORAGE_PATH=/data/mainnet/.storage 
+[2019-12-20 15:11:25.868] scoreRootPath=/data/mainnet/.score_data/score 
+[2019-12-20 15:11:25.879] stateDbRootPath=/data/mainnet/.score_data/db 
+[2019-12-20 15:11:25.892] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:11:26.429] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:11:26.439] NETWORK_ENV=mainnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:11:26.472] Generate key file /prep_peer/cert/aaa.pem 
+[2019-12-20 15:15:39.320] Your IP: 172.17.0.2 
+[2019-12-20 15:15:39.331] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:15:39.340] DEFAULT_PATH=/data/mainnet in Docker Container 
+[2019-12-20 15:15:39.349] DEFAULT_LOG_PATH=/data/mainnet/log 
+[2019-12-20 15:15:39.357] DEFAULT_STORAGE_PATH=/data/mainnet/.storage 
+[2019-12-20 15:15:39.366] scoreRootPath=/data/mainnet/.score_data/score 
+[2019-12-20 15:15:39.375] stateDbRootPath=/data/mainnet/.score_data/db 
+[2019-12-20 15:15:39.384] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:15:39.835] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:15:39.845] NETWORK_ENV=mainnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:15:39.871] Already cert keys= /prep_peer/cert/aaa.pem 
+[2019-12-20 15:16:18.961] Your IP: 172.17.0.2 
+[2019-12-20 15:16:18.974] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:16:18.986] DEFAULT_PATH=/data/mainnet in Docker Container 
+[2019-12-20 15:16:19.001] DEFAULT_LOG_PATH=/data/mainnet/log 
+[2019-12-20 15:16:19.011] DEFAULT_STORAGE_PATH=/data/mainnet/.storage 
+[2019-12-20 15:16:19.024] scoreRootPath=/data/mainnet/.score_data/score 
+[2019-12-20 15:16:19.037] stateDbRootPath=/data/mainnet/.score_data/db 
+[2019-12-20 15:16:19.050] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:16:19.506] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:16:19.517] NETWORK_ENV=mainnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:16:19.547] Already cert keys= /prep_peer/cert/aaa.pem 
+[2019-12-20 15:16:25.848] Your IP: 172.17.0.2 
+[2019-12-20 15:16:25.860] RPC_PORT: 9000 / RPC_WORKER: 3  
+[2019-12-20 15:16:25.869] DEFAULT_PATH=/data/mainnet in Docker Container 
+[2019-12-20 15:16:25.879] DEFAULT_LOG_PATH=/data/mainnet/log 
+[2019-12-20 15:16:25.889] DEFAULT_STORAGE_PATH=/data/mainnet/.storage 
+[2019-12-20 15:16:25.900] scoreRootPath=/data/mainnet/.score_data/score 
+[2019-12-20 15:16:25.909] stateDbRootPath=/data/mainnet/.score_data/db 
+[2019-12-20 15:16:25.919] P-REP package version info - prep-node_1912090356xb1e1fe 
+[2019-12-20 15:16:26.405] iconcommons             1.1.2     
+iconrpcserver           1.4.9     
+iconsdk                 1.2.0     
+iconservice             1.5.20    
+loopchain               2.4.20     
+[2019-12-20 15:16:26.417] NETWORK_ENV=mainnet, SERVICE=prep, ENDPOINT_URL=http://20.20.3.26:8000, SERVICE_API = http://20.20.3.26:8000/api/v3 
+[2019-12-20 15:16:26.455] Generate key file /prep_peer/cert/aaa.pem 
