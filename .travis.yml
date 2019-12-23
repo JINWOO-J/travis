@@ -28,8 +28,10 @@ install:
   - make IS_LOCAL=$IS_LOCAL build_python
 
 script:
-  - docker run -d -p 9000:9000 -e IS_AUTOGEN_CERT="true" iconloop/prep-node:$(make version)
+  - docker run -d -p 9000:9000 -e IS_AUTOGEN_CERT="true" --name prep-node iconloop/prep-node:$(make version) 
   - travis_wait 50 docker ps -a
-  - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
+#   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
   - wait-for-it --service 127.0.0.1:9000 -t 200  -- curl 127.0.0.1:9000/api/v1/status/peer
+  - curl http://127.0.0.1/api/v1/status/peer
+  - docker logs prep-node
 
