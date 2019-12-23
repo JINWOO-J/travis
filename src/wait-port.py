@@ -19,7 +19,7 @@ class wait_for_app:
              1:"%s: waiting %d seconds for %s" %(sys.argv[0],time,app),
              2:"%s: waiting for %s without a timeout" %(sys.argv[0],app),
              3:"%s: %s is available after %d seconds" %(sys.argv[0],app,time),
-             4:"%s: %s is unavailable" %(sys.argv[0],app),
+             4:"%s: %s is unavailable ------ " %(sys.argv[0],app),
              5:"%s: timeout occurred after waiting %d seconds for %s" %(sys.argv[0],time,app),
         }.get(type)
         return loginfo
@@ -60,21 +60,21 @@ class wait_for_app:
         parser = self.get_parser()
         self.options,self.args=parser.parse_args()
         self.verify_options()
-        while True:
-            try:
-                self.wait_for(self.options.address, int(self.options.port), int(self.options.timeout))
-                status = "OK"            
-            except OptionException as err:
-                print(err)
-                parser.print_help()            
-            except socket.timeout as err:
-                logmsg = self.build_log(5, self.app, int(self.options.timeout))
-                self.log(logmsg)
-            except ConnectionRefusedError as err:
-                logmsg = self.build_log(4, self.app)
-                self.log(logmsg)
+        
+        try:
+            self.wait_for(self.options.address, int(self.options.port), int(self.options.timeout))
+            status = "OK"            
+        except OptionException as err:
+            print(err)
+            parser.print_help()            
+        except socket.timeout as err:
+            logmsg = self.build_log(5, self.app, int(self.options.timeout))
+            self.log(logmsg)
+        except ConnectionRefusedError as err:
+            logmsg = self.build_log(4, self.app)
+            self.log(logmsg)
 
-            return status
+        return status
 
 if __name__=='__main__':    
     w = wait_for_app()
