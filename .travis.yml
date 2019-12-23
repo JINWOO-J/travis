@@ -42,7 +42,7 @@ install:
 script:
 #  - until wait-for-it --service 127.0.0.1:9000 -t 300
   - until curl -s localhost:9000/api/v1/status/peer; do true; sleep 1; done
-  - sleep 30
+  - sleep 15
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - sleep 30
