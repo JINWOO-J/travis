@@ -45,6 +45,7 @@ script:
   - |
     NEXT_WAIT_TIME=0
     until curl -s localhost:9000/api/v1/status/peer || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
+      $(( NEXT_WAIT_TIME++ ))
       sleep 1;
     done
   - sleep 15
