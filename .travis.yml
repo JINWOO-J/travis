@@ -46,7 +46,8 @@ script:
     NEXT_WAIT_TIME=0
     until curl -s localhost:9000/api/v1/status/peer || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
     do
-      $(( NEXT_WAIT_TIME++ ));
+      echo $NEXT_WAIT_TIME
+      NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME++ ));
       sleep 1;
     done
   - sleep 15
@@ -62,7 +63,7 @@ script:
   - echo $peer_status | jq
   - block_height=$(echo $peer_status | jq .block_height)
   - |
-    if [ "${block_height}" != "-1" ];then
+    if [[ "${block_height}" -gt 0 ]];then
       echo "syncing .. $block_height"
     else
       "something wrong"
