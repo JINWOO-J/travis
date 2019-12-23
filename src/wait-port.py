@@ -4,6 +4,7 @@ from optparse import OptionParser
 import socket
 import time
 import sys
+
 class OptionException(Exception):
     def __init__(self, value):
         self.value = value
