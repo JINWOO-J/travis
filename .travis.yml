@@ -32,7 +32,7 @@ before_script:
   - until curl -s localhost:9000; do true; done
 
 script:
-  - sleep 10
+  - sleep 100
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - wait-for-it --service 127.0.0.1:9000 -t 300  
