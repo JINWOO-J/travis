@@ -20,11 +20,11 @@ branches:
 #   - |
 #     wget -qO- "https://github.com/crazy-max/travis-wait-enhanced/releases/download/v1.1.0/travis-wait-enhanced_1.1.0_linux_x86_64.tar.gz" | tar -zxvf - travis-wait-enhanced
 #     mv travis-wait-enhanced /home/travis/bin/
-    travis-wait-enhanced --version
+   #  travis-wait-enhanced --version
 install:
   - pip install wait-for-it
   - make IS_LOCAL=$IS_LOCAL build_python
-  - docker run -d -p 9000:9000 -e IS_AUTOGEN_CERT="true" -e PRIVATE_PATH="/private.pem" --name prep-node iconloop/prep-node:$(make version) 
+  - docker run --rm -d -p 9000:9000 -e IS_AUTOGEN_CERT="true" -e PRIVATE_PATH="/private.pem" --name prep-node iconloop/prep-node:$(make version) 
 
 script:  
   - docker ps -a
