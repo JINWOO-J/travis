@@ -49,7 +49,7 @@ script:
       NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME+1 ));
       sleep 1;
     done
-  - sleep 20
+  - sleep 40
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - sleep 30
