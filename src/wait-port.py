@@ -57,23 +57,24 @@ class wait_for_app:
     
     def start_up(self):
         status = "Fail"        
-        try:
-            parser = self.get_parser()
-            self.options,self.args=parser.parse_args()
-            self.verify_options()
-            self.wait_for(self.options.address, int(self.options.port), int(self.options.timeout))
-            status = "OK"            
-        except OptionException as err:
-            print(err)
-            parser.print_help()            
-        except socket.timeout as err:
-            logmsg = self.build_log(5, self.app, int(self.options.timeout))
-            self.log(logmsg)
-        except ConnectionRefusedError as err:
-            logmsg = self.build_log(4, self.app)
-            self.log(logmsg)
+        parser = self.get_parser()
+        self.options,self.args=parser.parse_args()
+        self.verify_options()
+        while True:
+            try:
+                self.wait_for(self.options.address, int(self.options.port), int(self.options.timeout))
+                status = "OK"            
+            except OptionException as err:
+                print(err)
+                parser.print_help()            
+            except socket.timeout as err:
+                logmsg = self.build_log(5, self.app, int(self.options.timeout))
+                self.log(logmsg)
+            except ConnectionRefusedError as err:
+                logmsg = self.build_log(4, self.app)
+                self.log(logmsg)
 
-        return status
+            return status
 
 if __name__=='__main__':    
     w = wait_for_app()
