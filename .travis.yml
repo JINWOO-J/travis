@@ -11,7 +11,6 @@ env:  # env에 따라서 n개의 sendbox가 만들어지고 빌드됨
     - CREP_ROOT_HASH="0x9718f5d6d6ddb77f547ecc7113c8f1bad1bf46220512fbde356eee74a90ba47c"
     - WAIT_RETRY=30
 
-
 branches:
   only:
     - master
@@ -47,7 +46,7 @@ script:
     until curl -s localhost:9000/api/v1/status/peer || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
     do
       echo $NEXT_WAIT_TIME
-      NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME++ ));
+      NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME+1 ));
       sleep 1;
     done
   - sleep 15
@@ -66,7 +65,8 @@ script:
     if [[ "${block_height}" -gt 0 ]];then
       echo "syncing .. $block_height"
     else
-      "something wrong"
+      echo "something wrong"
+      exit 1
     fi
 
 #after_success:
