@@ -1,5 +1,5 @@
 
---build-arg BUILD_DATE=2019-12-20T08:42:34UTC  
+--build-arg BUILD_DATE=2019-12-23T02:21:05UTC  
 --build-arg DOCKERIZE_VERSION=v0.6.1  
 --build-arg DOWNLOAD_PACKAGE=http://tbears.icon.foundation.s3-website.ap-northeast-2.amazonaws.com/docker_resource/1912090356xb1e1fe/docker_1912090356xb1e1fe_packages.tar.gz  
 --build-arg GO_VERSION=1.12.7  
@@ -9,5 +9,5 @@
 --build-arg RABBITMQ_VERSION=3.7.17  
 --build-arg REPO_HUB=iconloop  
 --build-arg TAGNAME=1912090356xb1e1fe  
---build-arg VCS_REF=321954e  
+--build-arg VCS_REF=63eeab9  
 --build-arg VERSION=1912090356xb1e1fe  
