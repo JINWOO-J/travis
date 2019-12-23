@@ -32,6 +32,7 @@ script:
 #   - wait-for-it --service 127.0.0.1:9000 -t 300  
 #   - sleep 30
   - ls -al
+  - until curl -s localhost:9000; do true; done
   - chmod 750 ./src/wait-port.py
   - ./src/wait-port.py -a localhost -p 9000 -t 80
   - ./src/wait-port.py -a 127.0.0.1 -p 9000 -t 80  
