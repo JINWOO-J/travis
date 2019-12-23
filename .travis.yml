@@ -33,7 +33,6 @@ install:
     -e CREP_ROOT_HASH=$CREP_ROOT_HASH
     -e LOG_OUTPUT_TYPE="console"
     -e IS_AUTOGEN_CERT="true"
-    -e
     --name prep-node iconloop/prep-node:$(make version)
 
 #before_script:
