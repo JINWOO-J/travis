@@ -26,19 +26,21 @@ install:
   - make IS_LOCAL=$IS_LOCAL build_python
   - docker run --rm -d -p 9000:9000 -e IS_AUTOGEN_CERT="true" -e PRIVATE_PATH="/private.pem" --name prep-node iconloop/prep-node:$(make version) 
 
+before_script:
+  - ./src/wait-port.py -a localhost -p 9000 -t 80
+#  - until curl -s localhost:9000; do true; done
+
 script:  
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - wait-for-it --service 127.0.0.1:9000 -t 300  
 #   - sleep 30
   - ls -al
-  - until curl -s localhost:9000; do true; done
-  - chmod 750 ./src/wait-port.py
-  - ./src/wait-port.py -a localhost -p 9000 -t 80
-  - ./src/wait-port.py -a 127.0.0.1 -p 9000 -t 80  
-  - curl -vvv http://localhost:9000/api/v1/status/peer
-  - curl -vvv http://127.0.0.1:9000/api/v1/status/peer
-  - curl naver.com
+#  - until curl -s localhost:9000; do true; done
+#  - chmod 750 ./src/wait-port.py
+#   - ./src/wait-port.py -a 127.0.0.1 -p 9000 -t 80
+#  - curl -vvv http://localhost:9000/api/v1/status/peer
+#  - curl -vvv http://127.0.0.1:9000/api/v1/status/peer
   - docker logs prep-node
 
 after_failure: docker logs prep-node
