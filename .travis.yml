@@ -45,11 +45,11 @@ script:
     NEXT_WAIT_TIME=0
     until curl -s localhost:9000/api/v1/status/peer || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
     do
-      echo $NEXT_WAIT_TIME
+      echo " retry count -> ${NEXT_WAIT_TIME}"
       NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME+1 ));
       sleep 1;
     done
-  - sleep 15
+  - sleep 20
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - sleep 30
