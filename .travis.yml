@@ -9,6 +9,7 @@ env:  # env에 따라서 n개의 sendbox가 만들어지고 빌드됨
   global:
     - IS_LOCAL=false
     - CREP_ROOT_HASH="0x9718f5d6d6ddb77f547ecc7113c8f1bad1bf46220512fbde356eee74a90ba47c"
+    - WAIT_RETRY=30
 
 
 branches:
@@ -41,7 +42,11 @@ install:
 
 script:
 #  - until wait-for-it --service 127.0.0.1:9000 -t 300
-  - travis_wait 100 until curl -s localhost:9000/api/v1/status/peer; do true; sleep 1; done
+  - |
+    NEXT_WAIT_TIME=0
+    until curl -s localhost:9000/api/v1/status/peer || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
+      sleep 1;
+    done
   - sleep 15
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
