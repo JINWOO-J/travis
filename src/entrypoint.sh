@@ -480,6 +480,7 @@ fi
 
 if [[ "${IS_AUTOGEN_CERT}" == "true" && ! -f "${PRIVATE_PATH}" ]]  ; then
     CPrint "Auto generataion cert key"
+    PRIVATE_PATH="${CERT_PATH}/autogen.pem"
     autogen_certkey "${PRIVATE_PATH}"
 fi
 
