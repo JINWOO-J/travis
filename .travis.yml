@@ -2,16 +2,6 @@ sudo: required
 language: python
 python:
   - "3.6"
-matrix:
-  include:
-  - python: 2.7
-    PARALLELIZE=false
-  - python: 3.5
-    PARALLELIZE=false   
-  - python: 3.6
-    PARALLELIZE=false
-  - python: 3.7
-    PARALLELIZE=false
 
 services:
   - docker
@@ -32,7 +22,6 @@ before_install:
     wget -qO- "https://github.com/crazy-max/travis-wait-enhanced/releases/download/v1.1.0/travis-wait-enhanced_1.1.0_linux_x86_64.tar.gz" | tar -zxvf - travis-wait-enhanced
     mv travis-wait-enhanced /home/travis/bin/
     travis-wait-enhanced --version
-
 install:
   - pip install wait-for-it
   - make IS_LOCAL=$IS_LOCAL build_python
@@ -42,10 +31,9 @@ script:
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - wait-for-it --service 127.0.0.1:9000 -t 300  
-  - sleep 45
+  - sleep 30
   - ls -al
   - chmod 750 ./src/wait-port.py
   - ./src/wait-port.py -a localhost -p 9000 -t 80
   - curl http://127.0.0.1:9000/api/v1/status/peer
   - docker logs prep-node
-
