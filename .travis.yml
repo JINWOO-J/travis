@@ -24,7 +24,7 @@ branches:
 install:
   - pip install wait-for-it
   - make IS_LOCAL=$IS_LOCAL build_python
-  - docker run --rm -p 9000:9000 -e LOG_OUTPUT="console" -e IS_AUTOGEN_CERT="true" -e PRIVATE_PATH="/private.pem" --name prep-node iconloop/prep-node:$(make version)
+  - docker run --rm -p 9000:9000 -e LOG_OUTPUT_TYPE="console" -e IS_AUTOGEN_CERT="true" -e PRIVATE_PATH="/private.pem" --name prep-node iconloop/prep-node:$(make version)
 
 before_script:
   - ./src/wait-port.py -a localhost -p 9000 -t 80
