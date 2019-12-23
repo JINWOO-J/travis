@@ -32,18 +32,17 @@ before_script:
   - until curl -s localhost:9000/api/v1/status/peer; do true; sleep 1; done
 
 script:
-  - sleep 100
+  - sleep 10
   - docker ps -a
 #   - travis-wait-enhanced --timeout=5m --print-string="Still running" --interval=5s -- curl 127.0.0.1:9000/api/v1/status/peer
 #   - wait-for-it --service 127.0.0.1:9000 -t 300  
 #   - sleep 30
-  - ls -al
+#  - ls -al
 #  - until curl -s localhost:9000; do true; done
 #  - chmod 750 ./src/wait-port.py
 #   - ./src/wait-port.py -a 127.0.0.1 -p 9000 -t 80
 #  - curl -vvv http://localhost:9000/api/v1/status/peer
-  - curl http://localhost:9000/api/v1/status/peer
-  - docker logs prep-node
+  - curl http://localhost:9000/api/v1/status/peer | jq
   
 
 after_failure: docker logs prep-node
