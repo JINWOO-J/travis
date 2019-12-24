@@ -39,10 +39,10 @@ install:
 #  - until curl -s localhost:9000/api/v1/status/peer; do true; sleep 1; done
 
 script:
-  - wait-for-it --service 127.0.0.1:9000 -t 300
+  -./src/wait-port.py -a localhost -p 9000 -t 80
   - |
     NEXT_WAIT_TIME=0
-    until curl -s localhost:9000/api/v1/status/peer | jq || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
+    until $(curl -s localhost:9000/api/v1/status/peer | jq) || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
     do
       echo " retry count -> ${NEXT_WAIT_TIME}"
       NEXT_WAIT_TIME=$(( NEXT_WAIT_TIME+1 ));
