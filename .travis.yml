@@ -39,7 +39,7 @@ install:
 #  - until curl -s localhost:9000/api/v1/status/peer; do true; sleep 1; done
 
 script:
-  -./src/wait-port.py -a localhost -p 9000 -t 80
+  - ./src/wait-port.py -a localhost -p 9000 -t 80
   - |
     NEXT_WAIT_TIME=0
     until $(curl -s localhost:9000/api/v1/status/peer | jq) || [ $NEXT_WAIT_TIME -eq $WAIT_RETRY ];
